@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BasicBrickGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\GitRepos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\BasicBrickGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"F:\GitRepos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\BasicBrickGame.cpp.obj"
+"F:\GitRepos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\BasicBrickGameGameModeBase.cpp.obj"
+"F:\GitRepos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\BasicBrickGame.init.gen.cpp.obj"
+"F:\GitRepos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\BasicBrickGameGameModeBase.gen.cpp.obj"
+"F:\GitRepos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\Default.rc2.res"
+/OUT:"F:\GitRepos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame.lib"

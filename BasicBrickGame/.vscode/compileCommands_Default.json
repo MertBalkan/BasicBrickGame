@@ -1,0 +1,37 @@
+[
+    {
+        "file": "D:\\\\GitRepos\\\\UE4Repos\\\\BasicBrickGame\\\\BasicBrickGame\\\\Source\\\\BasicBrickGame\\\\BasicBrickGame.Build.cs",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\.vscode\\compileCommands_Default\\BasicBrickGame.210.rsp\"",
+        "directory": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\GitRepos\\\\UE4Repos\\\\BasicBrickGame\\\\BasicBrickGame\\\\Source\\\\BasicBrickGame\\\\BasicBrickGame.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\.vscode\\compileCommands_Default\\BasicBrickGame.210.rsp\"",
+        "directory": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\GitRepos\\\\UE4Repos\\\\BasicBrickGame\\\\BasicBrickGame\\\\Source\\\\BasicBrickGame\\\\BasicBrickGame.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\.vscode\\compileCommands_Default\\BasicBrickGame.210.rsp\"",
+        "directory": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\GitRepos\\\\UE4Repos\\\\BasicBrickGame\\\\BasicBrickGame\\\\Source\\\\BasicBrickGame\\\\BasicBrickGameGameModeBase.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\.vscode\\compileCommands_Default\\BasicBrickGame.210.rsp\"",
+        "directory": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\GitRepos\\\\UE4Repos\\\\BasicBrickGame\\\\BasicBrickGame\\\\Source\\\\BasicBrickGame\\\\BasicBrickGameGameModeBase.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\.vscode\\compileCommands_Default\\BasicBrickGame.210.rsp\"",
+        "directory": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\GitRepos\\\\UE4Repos\\\\BasicBrickGame\\\\BasicBrickGame\\\\Source\\\\BasicBrickGame\\\\MyActorComponent.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\.vscode\\compileCommands_Default\\BasicBrickGame.210.rsp\"",
+        "directory": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\GitRepos\\\\UE4Repos\\\\BasicBrickGame\\\\BasicBrickGame\\\\Source\\\\BasicBrickGame\\\\MyActorComponent.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\.vscode\\compileCommands_Default\\BasicBrickGame.210.rsp\"",
+        "directory": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Source"
+    }
+]

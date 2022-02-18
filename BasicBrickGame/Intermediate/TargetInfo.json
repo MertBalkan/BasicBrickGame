@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "BasicBrickGame",
+			"Path": "D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\Source\\BasicBrickGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BasicBrickGameEditor",
+			"Path": "D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\Source\\BasicBrickGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

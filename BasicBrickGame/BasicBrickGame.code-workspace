@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"name": "BasicBrickGame",
+			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "F:\\EpicOyunlar\\UE_4.27"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"C_Cpp.default.forcedInclude": [
+			"${default}",
+			"D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\Intermediate\\Build\\Win64\\UE4Editor\\Development\\BasicBrickGame\\Definitions.BasicBrickGame.h",
+			"D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\Intermediate\\Build\\Win64\\BasicBrickGameEditor\\Development\\Engine\\SharedPCH.Engine.ShadowErrors.h"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	}
+}

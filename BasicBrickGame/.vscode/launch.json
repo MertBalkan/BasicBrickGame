@@ -1,0 +1,123 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BasicBrickGame (Debug)",
+            "request": "launch",
+            "preLaunchTask": "BasicBrickGame Win64 Debug Build",
+            "program": "D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+            "args": [],
+            "cwd": "F:\\EpicOyunlar\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BasicBrickGame (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "BasicBrickGame Win64 DebugGame Build",
+            "program": "D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+            "args": [],
+            "cwd": "F:\\EpicOyunlar\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BasicBrickGame (Development)",
+            "request": "launch",
+            "preLaunchTask": "BasicBrickGame Win64 Development Build",
+            "program": "D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\Binaries\\Win64\\UE4.exe",
+            "args": [],
+            "cwd": "F:\\EpicOyunlar\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BasicBrickGame (Shipping)",
+            "request": "launch",
+            "preLaunchTask": "BasicBrickGame Win64 Shipping Build",
+            "program": "D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+            "args": [],
+            "cwd": "F:\\EpicOyunlar\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BasicBrickGame (Test)",
+            "request": "launch",
+            "preLaunchTask": "BasicBrickGame Win64 Test Build",
+            "program": "D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\Binaries\\Win64\\UE4-Win64-Test.exe",
+            "args": [],
+            "cwd": "F:\\EpicOyunlar\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BasicBrickGameEditor (Debug)",
+            "request": "launch",
+            "preLaunchTask": "BasicBrickGameEditor Win64 Debug Build",
+            "program": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+            "args": [
+                "D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\BasicBrickGame.uproject"
+            ],
+            "cwd": "F:\\EpicOyunlar\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BasicBrickGameEditor (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "BasicBrickGameEditor Win64 DebugGame Build",
+            "program": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+            "args": [
+                "D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\BasicBrickGame.uproject"
+            ],
+            "cwd": "F:\\EpicOyunlar\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BasicBrickGameEditor (Development)",
+            "request": "launch",
+            "preLaunchTask": "BasicBrickGameEditor Win64 Development Build",
+            "program": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+            "args": [
+                "D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\BasicBrickGame.uproject"
+            ],
+            "cwd": "F:\\EpicOyunlar\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "Generate Project Files",
+            "type": "clr",
+            "request": "launch",
+            "program": "F:\\EpicOyunlar\\UE_4.27\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+            "console": "externalTerminal",
+            "args": [
+                "-projectfiles",
+                "-vscode",
+                "-project=D:\\GitRepos\\UE4Repos\\BasicBrickGame\\BasicBrickGame\\BasicBrickGame.uproject",
+                "-game",
+                "-engine"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "cwd": "F:\\EpicOyunlar\\UE_4.27"
+        }
+    ]
+}

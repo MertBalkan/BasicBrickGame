@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BASICBRICKGAME_MyActorComponent_generated_h
 
-#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_SPARSE_DATA
-#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_RPC_WRAPPERS
-#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_INCLASS_NO_PURE_DECLS \
+#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_SPARSE_DATA
+#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_RPC_WRAPPERS
+#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_RPC_WRAPPERS_NO_PURE_DECLS
+#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyActorComponent(); \
 	friend struct Z_Construct_UClass_UMyActorComponent_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(UMyActorComponent)
 
 
-#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_INCLASS \
+#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_INCLASS \
 private: \
 	static void StaticRegisterNativesUMyActorComponent(); \
 	friend struct Z_Construct_UClass_UMyActorComponent_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UMyActorComponent)
 
 
-#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_STANDARD_CONSTRUCTORS \
+#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyActorComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyActorComponent) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_ENHANCED_CONSTRUCTORS \
+#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UMyActorComponent(UMyActorComponent&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMyActorComponent)
 
 
-#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_PRIVATE_PROPERTY_OFFSET
-#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_PROLOG
-#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_GENERATED_BODY_LEGACY \
+#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_PRIVATE_PROPERTY_OFFSET
+#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_7_PROLOG
+#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_PRIVATE_PROPERTY_OFFSET \
-	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_SPARSE_DATA \
-	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_RPC_WRAPPERS \
-	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_INCLASS \
-	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_STANDARD_CONSTRUCTORS \
+	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_PRIVATE_PROPERTY_OFFSET \
+	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_SPARSE_DATA \
+	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_RPC_WRAPPERS \
+	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_INCLASS \
+	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_GENERATED_BODY \
+#define BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_PRIVATE_PROPERTY_OFFSET \
-	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_SPARSE_DATA \
-	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_INCLASS_NO_PURE_DECLS \
-	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_13_ENHANCED_CONSTRUCTORS \
+	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_PRIVATE_PROPERTY_OFFSET \
+	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_SPARSE_DATA \
+	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_INCLASS_NO_PURE_DECLS \
+	BasicBrickGame_Source_BasicBrickGame_MyActorComponent_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

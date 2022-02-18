@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"F:\\GitRepos\\BasicBrickGame\\BasicBrickGame\\Source\\BasicBrickGame\\BasicBrickGame.Build.cs",
-		"F:\\GitRepos\\BasicBrickGame\\BasicBrickGame\\Source\\BasicBrickGame.Target.cs",
-		"F:\\GitRepos\\BasicBrickGame\\BasicBrickGame\\Source\\BasicBrickGameEditor.Target.cs"
-	],
-	"EngineVersion": "4.27.2"
-}

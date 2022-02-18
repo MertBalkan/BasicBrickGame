@@ -1,2 +1,0 @@
-F:\GitRepos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\Definitions.BasicBrickGame.h
-F:\GitRepos\BasicBrickGame\BasicBrickGame\Source\BasicBrickGame\BasicBrickGame.h

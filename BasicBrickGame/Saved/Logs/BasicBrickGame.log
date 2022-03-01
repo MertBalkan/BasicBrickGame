@@ -907,3 +907,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.01-17.46.55:537][233]Writing project files... 100%
 [2022.03.01-17.47.30:247][539]LogSlate: Took 0.050171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
 [2022.03.01-17.47.33:566][702]LogSlate: Took 0.017257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.03.01-17.55.02:826][288]LogSlate: Took 0.016793 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)

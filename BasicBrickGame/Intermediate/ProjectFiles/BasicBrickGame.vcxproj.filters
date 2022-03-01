@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BasicBrickGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2A75A552-3B16-44C6-A4DE-124CDE2B8DBA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BasicBrickGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BasicBrickGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.ignore" />
+    <None Include="..\..\BasicBrickGame.code-workspace" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{EF64385C-A543-4005-8AF0-59B0B8B0C6BA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\BasicBrickGame">
+      <UniqueIdentifier>{7AB8DA6C-EE1E-4225-B403-3078390C0733}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BasicBrickGame\BasicBrickGame.Build.cs">
+      <Filter>Source\BasicBrickGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BasicBrickGame\BasicBrickGame.cpp">
+      <Filter>Source\BasicBrickGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicBrickGame\BasicBrickGame.h">
+      <Filter>Source\BasicBrickGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicBrickGame\BasicBrickGameGameModeBase.cpp">
+      <Filter>Source\BasicBrickGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicBrickGame\BasicBrickGameGameModeBase.h">
+      <Filter>Source\BasicBrickGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicBrickGame\MyActorComponent.cpp">
+      <Filter>Source\BasicBrickGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicBrickGame\MyActorComponent.h">
+      <Filter>Source\BasicBrickGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

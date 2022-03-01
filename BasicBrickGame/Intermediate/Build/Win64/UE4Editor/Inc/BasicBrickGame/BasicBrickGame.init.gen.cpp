@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeBasicBrickGame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xB3ACE756,
-				0xBE2A496B,
+				0x50C514AA,
+				0xD14EFDFE,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

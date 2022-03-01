@@ -2665,3 +2665,655 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.01-19.05.32:909][ 35]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/BP_PadleDF2EAD0A4E6D735B4F24F099A368173C.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/BP_Padle.uasset'
 [2022.03.01-19.05.32:923][ 35]AssetCheck: New page: Asset Save: BP_Padle
 [2022.03.01-19.05.32:923][ 35]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Padle.BP_Padle
+[2022.03.01-19.06.00:821][329]BlueprintLog: New page: Compile BP_Padle
+[2022.03.01-19.06.01:142][329]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2022.03.01-19.06.19:417][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.01-19.06.19:442][892]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2022.03.01-19.06.19:447][892]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Level131FB040F4673D4AD26D69096B7888D2F.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1.umap'
+[2022.03.01-19.06.19:458][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2022.03.01-19.06.19:474][892]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Level1_BuiltData07640C98479823F303810D80FC2FA09B.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1_BuiltData.uasset'
+[2022.03.01-19.06.19:489][892]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.01-19.06.19:489][892]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
+[2022.03.01-19.06.19:489][892]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData
+[2022.03.01-19.08.31:480][470]BlueprintLog: New page: Compile BP_Padle
+[2022.03.01-19.08.31:553][470]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2022.03.01-19.08.32:525][527]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.01-19.08.32:531][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.01-19.08.32:531][527]PIE: New page: PIE session: Level1 (Mar 2, 2022, 1:08:32 AM)
+[2022.03.01-19.08.32:531][527]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.03.01-19.08.32:532][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001101s)
+[2022.03.01-19.08.32:533][527]LogAIModule: Creating AISystem for world Level1
+[2022.03.01-19.08.32:533][527]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2022.03.01-19.08.32:533][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002310s)
+[2022.03.01-19.08.32:562][527]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2022.03.01-19.08.32:563][527]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2022.03.01-19.08.32:563][527]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.01-19.08.32:563][527]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.01-19.08.32:563][527]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.01-19.08.32:563][527]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.01-19.08.32:563][527]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.01-19.08.32:563][527]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.01-19.08.32:563][527]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.01-19.08.32:563][527]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.01-19.08.32:564][527]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.01-19.08.32:564][527]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.01-19.08.32:564][527]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.01-19.08.32:564][527]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.01-19.08.32:568][527]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.01-19.08.32:568][527]LogAudioMixer: Display: 1: FrontRight
+[2022.03.01-19.08.32:576][527]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.01-19.08.32:576][527]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.01-19.08.32:576][527]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.01-19.08.32:576][527]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.01-19.08.32:577][527]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.01-19.08.32:577][527]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.01-19.08.32:577][527]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.01-19.08.32:579][527]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.01-19.08.32:579][527]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.01-19.08.32:579][527]LogInit: FAudioDevice initialized.
+[2022.03.01-19.08.32:579][527]LogAudio: Display: Audio Device (ID: 26) registered with world 'Level1'.
+[2022.03.01-19.08.32:587][527]LogLoad: Game class is 'GM_BasicBrickMode_C'
+[2022.03.01-19.08.32:588][527]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2022.03.01-22.08.32
+[2022.03.01-19.08.32:588][527]LogWorld: Bringing up level for play took: 0.000434
+[2022.03.01-19.08.32:589][527]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2022.03.01-19.08.32:591][527]PIE: Server logged in
+[2022.03.01-19.08.32:592][527]PIE: Play in editor total start time 0.062 seconds.
+[2022.03.01-19.08.34:288][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.01-19.08.34:288][627]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.03.01-19.08.34:288][627]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-19.08.34:288][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-19.08.34:298][627]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.01-19.08.34:312][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-19.08.34:334][627]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.01-19.08.34:335][627]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.01-19.08.34:336][627]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.01-19.08.34:339][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.01-19.08.34:344][627]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2022.03.01-19.08.34:372][628]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.03.01-19.08.38:381][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Padle" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/BP_Padle.uasset" SILENT=true
+[2022.03.01-19.08.38:392][864]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/BP_PadleCCDF391341FC7C3F7D7DCD8D4924A3C0.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/BP_Padle.uasset'
+[2022.03.01-19.08.38:404][864]AssetCheck: New page: Asset Save: BP_Padle
+[2022.03.01-19.08.38:404][864]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Padle.BP_Padle
+[2022.03.01-19.08.38:741][885]BlueprintLog: New page: Compile BP_Padle
+[2022.03.01-19.08.38:788][885]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2022.03.01-19.08.39:528][929]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.01-19.08.39:533][929]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.01-19.08.39:533][929]PIE: New page: PIE session: Level1 (Mar 2, 2022, 1:08:39 AM)
+[2022.03.01-19.08.39:533][929]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.03.01-19.08.39:534][929]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001254s)
+[2022.03.01-19.08.39:535][929]LogAIModule: Creating AISystem for world Level1
+[2022.03.01-19.08.39:536][929]LogPlayLevel: PIE: World Init took: (0.001395s)
+[2022.03.01-19.08.39:536][929]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002851s)
+[2022.03.01-19.08.39:562][929]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.03.01-19.08.39:563][929]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2022.03.01-19.08.39:563][929]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.01-19.08.39:563][929]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.01-19.08.39:563][929]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.01-19.08.39:563][929]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.01-19.08.39:563][929]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.01-19.08.39:563][929]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.01-19.08.39:563][929]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.01-19.08.39:563][929]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.01-19.08.39:564][929]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.01-19.08.39:564][929]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.01-19.08.39:564][929]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.01-19.08.39:564][929]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.01-19.08.39:567][929]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.01-19.08.39:567][929]LogAudioMixer: Display: 1: FrontRight
+[2022.03.01-19.08.39:576][929]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.01-19.08.39:577][929]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.01-19.08.39:577][929]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.01-19.08.39:577][929]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.01-19.08.39:577][929]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.01-19.08.39:577][929]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.01-19.08.39:577][929]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.01-19.08.39:578][929]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.01-19.08.39:578][929]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.01-19.08.39:578][929]LogInit: FAudioDevice initialized.
+[2022.03.01-19.08.39:579][929]LogAudio: Display: Audio Device (ID: 27) registered with world 'Level1'.
+[2022.03.01-19.08.39:585][929]LogLoad: Game class is 'GM_BasicBrickMode_C'
+[2022.03.01-19.08.39:586][929]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2022.03.01-22.08.39
+[2022.03.01-19.08.39:586][929]LogWorld: Bringing up level for play took: 0.000439
+[2022.03.01-19.08.39:586][929]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2022.03.01-19.08.39:588][929]PIE: Server logged in
+[2022.03.01-19.08.39:590][929]PIE: Play in editor total start time 0.057 seconds.
+[2022.03.01-19.08.41:010][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.01-19.08.41:010][ 12]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.03.01-19.08.41:010][ 12]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-19.08.41:010][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-19.08.41:018][ 12]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.01-19.08.41:031][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-19.08.41:053][ 12]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.01-19.08.41:053][ 12]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.01-19.08.41:054][ 12]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.01-19.08.41:057][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.01-19.08.41:060][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2022.03.01-19.08.41:088][ 13]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.03.01-19.08.41:720][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.01-19.08.41:745][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2022.03.01-19.08.41:749][ 47]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Level1899CDADA4EB6888905D5D6BB467004F2.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1.umap'
+[2022.03.01-19.08.41:760][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2022.03.01-19.08.41:775][ 47]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Level1_BuiltData5C7871524095A48BFDB41098033715F2.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1_BuiltData.uasset'
+[2022.03.01-19.08.41:792][ 47]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.01-19.08.41:792][ 47]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
+[2022.03.01-19.08.41:792][ 47]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData
+[2022.03.01-19.08.58:539][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Padle" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/BP_Padle.uasset" SILENT=true
+[2022.03.01-19.08.58:551][856]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/BP_PadleEA189321494F563429401CAAE25E63D2.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/BP_Padle.uasset'
+[2022.03.01-19.08.58:563][856]AssetCheck: New page: Asset Save: BP_Padle
+[2022.03.01-19.08.58:563][856]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Padle.BP_Padle
+[2022.03.01-19.11.30:185][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Padle" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/BP_Padle.uasset" SILENT=true
+[2022.03.01-19.11.30:192][467]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/BP_PadleAC6CF28D4AF4572C19D78994347A10F4.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/BP_Padle.uasset'
+[2022.03.01-19.11.30:211][467]AssetCheck: New page: Asset Save: BP_Padle
+[2022.03.01-19.11.30:211][467]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Padle.BP_Padle
+[2022.03.01-19.11.30:743][495]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2022.03.01-19.11.32:235][495]LogSlate: Window 'Save Content' being destroyed
+[2022.03.01-19.11.32:263][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GM_BasicBrickMode" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/GM_BasicBrickMode.uasset" SILENT=true
+[2022.03.01-19.11.32:275][495]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/GM_BasicBrickModeC5EAA03D4848CAC11C4EAC98807160D9.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/GM_BasicBrickMode.uasset'
+[2022.03.01-19.11.32:277][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PC_PaddleController" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/PC_PaddleController.uasset" SILENT=true
+[2022.03.01-19.11.32:284][495]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/PC_PaddleControllerF7BD9F164F244DB8C5095FA3F2CEA4E2.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/PC_PaddleController.uasset'
+[2022.03.01-19.11.32:483][495]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.03.01-19.11.32:524][495]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2022.03.01-19.11.32:552][495]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.03.01-19.11.33:194][495]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-19.11.33:194][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-19.11.34:482][495]LogSlate: Window 'BasicBrickGame - Unreal Editor' being destroyed
+[2022.03.01-19.11.38:608][495]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.01-19.11.38:608][495]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/GM_BasicBrickMode.GM_BasicBrickMode
+[2022.03.01-19.11.38:608][495]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PC_PaddleController.PC_PaddleController
+[2022.03.01-19.11.38:730][496]Cmd: QUIT_EDITOR
+[2022.03.01-19.11.38:768][496]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.03.01-19.11.40:560][496]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.03.01-19.11.45:216][496]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.03.01-19.11.45:216][496]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.03.01-19.11.45:216][496]LogAudio: Display: Audio Device unregistered from world 'Level1'.
+[2022.03.01-19.11.45:216][496]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.01-19.11.45:221][496]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.01-19.11.45:280][496]LogAudio: Display: Audio Device Manager Shutdown
+[2022.03.01-19.11.45:310][496]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.03.01-19.11.45:409][496]LogExit: Preparing to exit.
+[2022.03.01-19.11.47:627][496]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
+[2022.03.01-19.11.52:625][496]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-19.11.52:625][496]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-19.11.52:625][496]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-19.11.52:625][496]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-19.11.52:625][496]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-19.11.52:625][496]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-19.11.52:625][496]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-19.11.52:625][496]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-19.11.52:627][496]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-19.11.52:627][496]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-19.11.52:627][496]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-19.11.52:627][496]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-19.11.52:627][496]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-19.11.52:627][496]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-19.11.52:627][496]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-19.11.52:627][496]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-19.11.52:628][496]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-19.11.52:629][496]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-19.11.53:434][496]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.03.01-19.11.54:728][496]LogExit: Editor shut down
+[2022.03.01-19.11.54:736][496]LogExit: Transaction tracking system shut down
+[2022.03.01-19.12.00:787][496]LogExit: Object subsystem successfully closed.
+[2022.03.01-19.12.00:815][496]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.01-19.12.00:815][496]LogShaderCompilers: Display: Total job queries 38, among them cache hits 0 (0.00%)
+[2022.03.01-19.12.00:815][496]LogShaderCompilers: Display: Tracking 38 distinct input hashes that result in 17 distinct outputs (44.74%)
+[2022.03.01-19.12.00:815][496]LogShaderCompilers: Display: RAM used: 0.07 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.03.01-19.12.00:815][496]LogShaderCompilers: Display: ================================================
+[2022.03.01-19.12.01:372][496]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.03.01-19.12.07:341][496]LogModuleManager: Shutting down and abandoning module BasicBrickGame (904)
+[2022.03.01-19.12.07:341][496]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (897)
+[2022.03.01-19.12.07:341][496]LogModuleManager: Shutting down and abandoning module Voice (895)
+[2022.03.01-19.12.07:369][496]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (893)
+[2022.03.01-19.12.07:386][496]LogModuleManager: Shutting down and abandoning module BlueprintGraph (891)
+[2022.03.01-19.12.07:386][496]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (886)
+[2022.03.01-19.12.07:386][496]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (884)
+[2022.03.01-19.12.07:386][496]LogModuleManager: Shutting down and abandoning module SceneOutliner (882)
+[2022.03.01-19.12.07:387][496]LogModuleManager: Shutting down and abandoning module AddContentDialog (880)
+[2022.03.01-19.12.07:407][496]LogModuleManager: Shutting down and abandoning module WidgetCarousel (879)
+[2022.03.01-19.12.07:407][496]LogModuleManager: Shutting down and abandoning module EditorWidgets (876)
+[2022.03.01-19.12.07:407][496]LogModuleManager: Shutting down and abandoning module StatsViewer (874)
+[2022.03.01-19.12.07:455][496]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (872)
+[2022.03.01-19.12.07:471][496]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (870)
+[2022.03.01-19.12.07:471][496]LogModuleManager: Shutting down and abandoning module AutomationWorker (868)
+[2022.03.01-19.12.07:528][496]LogModuleManager: Shutting down and abandoning module SteamVREditor (866)
+[2022.03.01-19.12.07:528][496]LogModuleManager: Shutting down and abandoning module OculusMR (864)
+[2022.03.01-19.12.07:528][496]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (862)
+[2022.03.01-19.12.07:764][496]LogModuleManager: Shutting down and abandoning module TakeRecorder (861)
+[2022.03.01-19.12.07:841][496]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (858)
+[2022.03.01-19.12.07:861][496]LogModuleManager: Shutting down and abandoning module TakesCore (856)
+[2022.03.01-19.12.07:876][496]LogModuleManager: Shutting down and abandoning module OpenXRInput (854)
+[2022.03.01-19.12.07:917][496]LogModuleManager: Shutting down and abandoning module GooglePADEditor (852)
+[2022.03.01-19.12.07:917][496]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (850)
+[2022.03.01-19.12.07:926][496]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (848)
+[2022.03.01-19.12.08:070][496]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (846)
+[2022.03.01-19.12.08:097][496]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (844)
+[2022.03.01-19.12.08:116][496]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (842)
+[2022.03.01-19.12.08:199][496]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (840)
+[2022.03.01-19.12.08:199][496]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (838)
+[2022.03.01-19.12.08:199][496]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (836)
+[2022.03.01-19.12.08:199][496]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (834)
+[2022.03.01-19.12.08:199][496]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (832)
+[2022.03.01-19.12.08:199][496]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (830)
+[2022.03.01-19.12.08:218][496]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (828)
+[2022.03.01-19.12.08:218][496]LogModuleManager: Shutting down and abandoning module WebMMedia (826)
+[2022.03.01-19.12.08:228][496]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (824)
+[2022.03.01-19.12.08:248][496]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (822)
+[2022.03.01-19.12.08:344][496]LogModuleManager: Shutting down and abandoning module SequenceRecorder (821)
+[2022.03.01-19.12.08:344][496]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (818)
+[2022.03.01-19.12.08:344][496]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (816)
+[2022.03.01-19.12.08:344][496]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (814)
+[2022.03.01-19.12.08:344][496]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (812)
+[2022.03.01-19.12.08:345][496]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (810)
+[2022.03.01-19.12.08:387][496]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (808)
+[2022.03.01-19.12.08:392][496]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (806)
+[2022.03.01-19.12.08:392][496]LogModuleManager: Shutting down and abandoning module PlanarCut (804)
+[2022.03.01-19.12.08:407][496]LogModuleManager: Shutting down and abandoning module CharacterAI (802)
+[2022.03.01-19.12.08:407][496]LogModuleManager: Shutting down and abandoning module TextureAlignMode (800)
+[2022.03.01-19.12.08:407][496]LogModuleManager: Shutting down and abandoning module BspMode (798)
+[2022.03.01-19.12.08:490][496]LogModuleManager: Shutting down and abandoning module GeometryMode (796)
+[2022.03.01-19.12.08:490][496]LogModuleManager: Shutting down and abandoning module RiderShaderInfoDump (794)
+[2022.03.01-19.12.08:490][496]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (792)
+[2022.03.01-19.12.08:509][496]LogModuleManager: Shutting down and abandoning module SmartSnapping (790)
+[2022.03.01-19.12.08:520][496]LogModuleManager: Shutting down and abandoning module SessionServices (788)
+[2022.03.01-19.12.08:520][496]LogModuleManager: Shutting down and abandoning module MeshPaint (786)
+[2022.03.01-19.12.08:537][496]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (784)
+[2022.03.01-19.12.08:546][496]LogModuleManager: Shutting down and abandoning module FoliageEdit (782)
+[2022.03.01-19.12.08:551][496]LogModuleManager: Shutting down and abandoning module LandscapeEditor (780)
+[2022.03.01-19.12.08:651][496]LogModuleManager: Shutting down and abandoning module MeshPaintMode (778)
+[2022.03.01-19.12.08:665][496]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (776)
+[2022.03.01-19.12.08:665][496]LogModuleManager: Shutting down and abandoning module ActorPickerMode (774)
+[2022.03.01-19.12.08:665][496]LogModuleManager: Shutting down and abandoning module PlacementMode (772)
+[2022.03.01-19.12.08:665][496]LogModuleManager: Shutting down and abandoning module ViewportSnapping (770)
+[2022.03.01-19.12.08:665][496]LogModuleManager: Shutting down and abandoning module ViewportInteraction (768)
+[2022.03.01-19.12.08:665][496]LogModuleManager: Shutting down and abandoning module ClothPainter (766)
+[2022.03.01-19.12.08:758][496]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (765)
+[2022.03.01-19.12.08:823][496]LogModuleManager: Shutting down and abandoning module LogVisualizer (762)
+[2022.03.01-19.12.08:847][496]LogModuleManager: Shutting down and abandoning module IntroTutorials (760)
+[2022.03.01-19.12.08:878][496]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (759)
+[2022.03.01-19.12.08:878][496]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (756)
+[2022.03.01-19.12.08:878][496]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (754)
+[2022.03.01-19.12.08:878][496]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (752)
+[2022.03.01-19.12.08:878][496]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (751)
+[2022.03.01-19.12.09:573][496]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (748)
+[2022.03.01-19.12.09:573][496]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (746)
+[2022.03.01-19.12.09:573][496]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (744)
+[2022.03.01-19.12.09:574][496]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (742)
+[2022.03.01-19.12.09:574][496]LogModuleManager: Shutting down and abandoning module TraceInsights (740)
+[2022.03.01-19.12.09:653][496]MemoryProfiler: Shutdown
+[2022.03.01-19.12.09:653][496]NetworkingProfiler: Shutdown
+[2022.03.01-19.12.09:654][496]LoadingProfiler: Shutdown
+[2022.03.01-19.12.09:655][496]TimingProfiler: Shutdown
+[2022.03.01-19.12.09:674][496]LogModuleManager: Shutting down and abandoning module TraceServices (739)
+[2022.03.01-19.12.09:702][496]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (736)
+[2022.03.01-19.12.09:702][496]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (734)
+[2022.03.01-19.12.09:714][496]LogModuleManager: Shutting down and abandoning module InputBindingEditor (732)
+[2022.03.01-19.12.09:733][496]LogModuleManager: Shutting down and abandoning module MergeActors (730)
+[2022.03.01-19.12.09:754][496]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (728)
+[2022.03.01-19.12.09:781][496]LogModuleManager: Shutting down and abandoning module LocalizationService (727)
+[2022.03.01-19.12.09:798][496]LogModuleManager: Shutting down and abandoning module HardwareTargeting (724)
+[2022.03.01-19.12.09:798][496]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (722)
+[2022.03.01-19.12.09:808][496]LogModuleManager: Shutting down and abandoning module UndoHistory (720)
+[2022.03.01-19.12.09:853][496]LogModuleManager: Shutting down and abandoning module XmlParser (718)
+[2022.03.01-19.12.09:880][496]LogModuleManager: Shutting down and abandoning module Blutility (716)
+[2022.03.01-19.12.09:880][496]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (714)
+[2022.03.01-19.12.09:880][496]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (713)
+[2022.03.01-19.12.09:881][496]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (710)
+[2022.03.01-19.12.09:906][496]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (709)
+[2022.03.01-19.12.09:906][496]LogModuleManager: Shutting down and abandoning module SettingsEditor (706)
+[2022.03.01-19.12.09:906][496]LogModuleManager: Shutting down and abandoning module ProjectLauncher (704)
+[2022.03.01-19.12.09:938][496]LogModuleManager: Shutting down and abandoning module SessionFrontend (702)
+[2022.03.01-19.12.09:960][496]LogModuleManager: Shutting down and abandoning module ProfilerClient (700)
+[2022.03.01-19.12.09:979][496]LogModuleManager: Shutting down and abandoning module DeviceManager (698)
+[2022.03.01-19.12.10:009][496]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (697)
+[2022.03.01-19.12.10:064][496]LogModuleManager: Shutting down and abandoning module AutomationController (694)
+[2022.03.01-19.12.10:081][496]LogModuleManager: Shutting down and abandoning module AutomationWindow (692)
+[2022.03.01-19.12.10:093][496]LogModuleManager: Shutting down and abandoning module Layers (690)
+[2022.03.01-19.12.10:146][496]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (688)
+[2022.03.01-19.12.10:146][496]LogModuleManager: Shutting down and abandoning module DetailCustomizations (686)
+[2022.03.01-19.12.10:146][496]LogModuleManager: Shutting down and abandoning module PackagesDialog (684)
+[2022.03.01-19.12.10:146][496]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (682)
+[2022.03.01-19.12.10:214][496]LogModuleManager: Shutting down and abandoning module Persona (680)
+[2022.03.01-19.12.10:293][496]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (679)
+[2022.03.01-19.12.10:293][496]LogModuleManager: Shutting down and abandoning module AnimGraph (677)
+[2022.03.01-19.12.10:310][496]LogModuleManager: Shutting down and abandoning module Kismet (674)
+[2022.03.01-19.12.10:385][496]LogModuleManager: Shutting down and abandoning module KismetWidgets (673)
+[2022.03.01-19.12.10:385][496]LogModuleManager: Shutting down and abandoning module GraphEditor (670)
+[2022.03.01-19.12.10:441][496]LogModuleManager: Shutting down and abandoning module StructViewer (668)
+[2022.03.01-19.12.10:451][496]LogModuleManager: Shutting down and abandoning module ClassViewer (666)
+[2022.03.01-19.12.10:452][496]LogModuleManager: Shutting down and abandoning module Toolbox (664)
+[2022.03.01-19.12.10:452][496]LogModuleManager: Shutting down and abandoning module ModuleUI (662)
+[2022.03.01-19.12.10:460][496]LogModuleManager: Shutting down and abandoning module OutputLog (660)
+[2022.03.01-19.12.10:462][496]LogModuleManager: Shutting down and abandoning module GammaUI (658)
+[2022.03.01-19.12.10:472][496]LogModuleManager: Shutting down and abandoning module Documentation (656)
+[2022.03.01-19.12.10:472][496]LogModuleManager: Shutting down and abandoning module LiveCoding (654)
+[2022.03.01-19.12.10:499][496]LogModuleManager: Shutting down and abandoning module LevelSequence (652)
+[2022.03.01-19.12.10:499][496]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (650)
+[2022.03.01-19.12.10:529][496]LogModuleManager: Shutting down and abandoning module MovieScene (648)
+[2022.03.01-19.12.10:563][496]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (646)
+[2022.03.01-19.12.10:581][496]LogModuleManager: Shutting down and abandoning module LauncherPlatform (644)
+[2022.03.01-19.12.10:584][496]LogModuleManager: Shutting down and abandoning module AnalyticsET (642)
+[2022.03.01-19.12.10:584][496]LogModuleManager: Shutting down and abandoning module PortalServices (640)
+[2022.03.01-19.12.10:584][496]LogModuleManager: Shutting down and abandoning module PortalRpc (638)
+[2022.03.01-19.12.10:584][496]LogModuleManager: Shutting down and abandoning module MessagingRpc (636)
+[2022.03.01-19.12.10:584][496]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (634)
+[2022.03.01-19.12.10:584][496]LogModuleManager: Shutting down and abandoning module AudioMixerCore (633)
+[2022.03.01-19.12.10:584][496]LogModuleManager: Shutting down and abandoning module AIModule (630)
+[2022.03.01-19.12.10:620][496]LogModuleManager: Shutting down and abandoning module GameplayDebugger (629)
+[2022.03.01-19.12.10:620][496]LogModuleManager: Shutting down and abandoning module AITestSuite (627)
+[2022.03.01-19.12.10:644][496]LogModuleManager: Shutting down and abandoning module NavigationSystem (625)
+[2022.03.01-19.12.10:663][496]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (622)
+[2022.03.01-19.12.10:669][496]LogModuleManager: Shutting down and abandoning module ProfilerService (620)
+[2022.03.01-19.12.10:909][496]LogModuleManager: Shutting down and abandoning module TaskGraph (618)
+[2022.03.01-19.12.10:911][496]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (616)
+[2022.03.01-19.12.10:911][496]LogModuleManager: Shutting down and abandoning module OculusEditor (614)
+[2022.03.01-19.12.11:054][496]LogModuleManager: Shutting down and abandoning module OculusInput (612)
+[2022.03.01-19.12.11:054][496]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (610)
+[2022.03.01-19.12.11:054][496]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (608)
+[2022.03.01-19.12.11:054][496]LogModuleManager: Shutting down and abandoning module CollectionManager (607)
+[2022.03.01-19.12.11:067][496]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (604)
+[2022.03.01-19.12.11:067][496]LogModuleManager: Shutting down and abandoning module TakeSequencer (602)
+[2022.03.01-19.12.11:067][496]LogModuleManager: Shutting down and abandoning module TakeMovieScene (600)
+[2022.03.01-19.12.11:067][496]LogModuleManager: Shutting down and abandoning module SynthesisEditor (598)
+[2022.03.01-19.12.11:067][496]LogModuleManager: Shutting down and abandoning module Synthesis (596)
+[2022.03.01-19.12.11:100][496]LogModuleManager: Shutting down and abandoning module ScreenshotTools (594)
+[2022.03.01-19.12.11:100][496]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (592)
+[2022.03.01-19.12.11:100][496]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (590)
+[2022.03.01-19.12.11:100][496]LogModuleManager: Shutting down and abandoning module OpenXREditor (588)
+[2022.03.01-19.12.11:112][496]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (586)
+[2022.03.01-19.12.11:112][496]LogModuleManager: Shutting down and abandoning module GooglePAD (584)
+[2022.03.01-19.12.11:112][496]LogModuleManager: Shutting down and abandoning module EditableMesh (582)
+[2022.03.01-19.12.11:122][496]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (580)
+[2022.03.01-19.12.11:122][496]LogModuleManager: Shutting down and abandoning module CableComponent (578)
+[2022.03.01-19.12.11:122][496]LogModuleManager: Shutting down and abandoning module AudioCapture (576)
+[2022.03.01-19.12.11:122][496]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (575)
+[2022.03.01-19.12.11:139][496]LogModuleManager: Shutting down and abandoning module AssetTags (572)
+[2022.03.01-19.12.11:139][496]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (570)
+[2022.03.01-19.12.11:139][496]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (568)
+[2022.03.01-19.12.11:139][496]LogModuleManager: Shutting down and abandoning module AppleImageUtils (566)
+[2022.03.01-19.12.11:139][496]LogModuleManager: Shutting down and abandoning module AndroidPermission (564)
+[2022.03.01-19.12.11:139][496]LogModuleManager: Shutting down and abandoning module TemplateSequence (562)
+[2022.03.01-19.12.11:139][496]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (560)
+[2022.03.01-19.12.11:148][496]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (558)
+[2022.03.01-19.12.11:148][496]LogModuleManager: Shutting down and abandoning module ImgMedia (556)
+[2022.03.01-19.12.11:148][496]LogModuleManager: Shutting down and abandoning module MediaCompositing (554)
+[2022.03.01-19.12.11:148][496]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (552)
+[2022.03.01-19.12.11:148][496]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (550)
+[2022.03.01-19.12.11:149][496]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (548)
+[2022.03.01-19.12.11:149][496]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (546)
+[2022.03.01-19.12.11:149][496]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (544)
+[2022.03.01-19.12.11:149][496]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (542)
+[2022.03.01-19.12.11:163][496]LogOpenImageDenoise: OIDN shutting down
+[2022.03.01-19.12.11:163][496]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (540)
+[2022.03.01-19.12.11:163][496]LogModuleManager: Shutting down and abandoning module MotoSynth (538)
+[2022.03.01-19.12.11:163][496]LogModuleManager: Shutting down and abandoning module MeshConversion (536)
+[2022.03.01-19.12.11:189][496]LogModuleManager: Shutting down and abandoning module DynamicMesh (534)
+[2022.03.01-19.12.11:210][496]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (532)
+[2022.03.01-19.12.11:236][496]LogModuleManager: Shutting down and abandoning module GeometricObjects (530)
+[2022.03.01-19.12.11:243][496]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (528)
+[2022.03.01-19.12.11:321][496]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (526)
+[2022.03.01-19.12.11:321][496]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (524)
+[2022.03.01-19.12.11:335][496]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (522)
+[2022.03.01-19.12.11:335][496]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (520)
+[2022.03.01-19.12.11:336][496]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (519)
+[2022.03.01-19.12.11:336][496]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (516)
+[2022.03.01-19.12.11:345][496]LogModuleManager: Shutting down and abandoning module FractureEditor (514)
+[2022.03.01-19.12.11:373][496]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (512)
+[2022.03.01-19.12.11:373][496]LogModuleManager: Shutting down and abandoning module ChaosNiagara (510)
+[2022.03.01-19.12.11:391][496]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (509)
+[2022.03.01-19.12.11:391][496]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (506)
+[2022.03.01-19.12.11:406][496]LogModuleManager: Shutting down and abandoning module BackChannel (504)
+[2022.03.01-19.12.11:418][496]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (502)
+[2022.03.01-19.12.11:436][496]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (500)
+[2022.03.01-19.12.11:436][496]LogModuleManager: Shutting down and abandoning module AutomationUtils (498)
+[2022.03.01-19.12.11:436][496]LogModuleManager: Shutting down and abandoning module AlembicImporter (496)
+[2022.03.01-19.12.11:436][496]LogModuleManager: Shutting down and abandoning module AlembicLibrary (495)
+[2022.03.01-19.12.11:449][496]LogModuleManager: Shutting down and abandoning module GeometryCache (494)
+[2022.03.01-19.12.11:449][496]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (493)
+[2022.03.01-19.12.11:449][496]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (488)
+[2022.03.01-19.12.11:449][496]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (486)
+[2022.03.01-19.12.11:471][496]LogModuleManager: Shutting down and abandoning module PluginBrowser (484)
+[2022.03.01-19.12.11:497][496]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (482)
+[2022.03.01-19.12.11:515][496]LogModuleManager: Shutting down and abandoning module CurveEditorTools (480)
+[2022.03.01-19.12.11:547][496]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (478)
+[2022.03.01-19.12.11:564][496]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (476)
+[2022.03.01-19.12.11:564][496]LogModuleManager: Shutting down and abandoning module CryptoKeys (474)
+[2022.03.01-19.12.11:564][496]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (472)
+[2022.03.01-19.12.11:586][496]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (470)
+[2022.03.01-19.12.11:586][496]LogModuleManager: Shutting down and abandoning module UObjectPlugin (468)
+[2022.03.01-19.12.11:586][496]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (466)
+[2022.03.01-19.12.11:603][496]LogModuleManager: Shutting down and abandoning module RiderGameControlExtension (464)
+[2022.03.01-19.12.11:635][496]LogModuleManager: Shutting down and abandoning module RiderBlueprintExtension (462)
+[2022.03.01-19.12.11:653][496]LogModuleManager: Shutting down and abandoning module PluginUtils (460)
+[2022.03.01-19.12.11:678][496]LogModuleManager: Shutting down and abandoning module GitSourceControl (458)
+[2022.03.01-19.12.11:691][496]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (456)
+[2022.03.01-19.12.11:709][496]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (454)
+[2022.03.01-19.12.11:730][496]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (452)
+[2022.03.01-19.12.11:770][496]LogModuleManager: Shutting down and abandoning module SourceControl (451)
+[2022.03.01-19.12.11:779][496]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (448)
+[2022.03.01-19.12.11:799][496]LogModuleManager: Shutting down and abandoning module LiveLinkSequencer (446)
+[2022.03.01-19.12.11:828][496]LogModuleManager: Shutting down and abandoning module LiveLinkMovieScene (444)
+[2022.03.01-19.12.11:828][496]LogModuleManager: Shutting down and abandoning module LiveLinkGraphNode (442)
+[2022.03.01-19.12.11:828][496]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (440)
+[2022.03.01-19.12.11:869][496]LogModuleManager: Shutting down and abandoning module LiveLinkComponents (438)
+[2022.03.01-19.12.11:869][496]LogModuleManager: Shutting down and abandoning module LiveLink (436)
+[2022.03.01-19.12.12:014][496]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (434)
+[2022.03.01-19.12.12:014][496]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (432)
+[2022.03.01-19.12.12:014][496]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (430)
+[2022.03.01-19.12.12:023][496]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (428)
+[2022.03.01-19.12.12:023][496]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (426)
+[2022.03.01-19.12.12:029][496]LogModuleManager: Shutting down and abandoning module Paper2DEditor (424)
+[2022.03.01-19.12.12:101][496]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (422)
+[2022.03.01-19.12.12:137][496]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (420)
+[2022.03.01-19.12.12:144][496]LogModuleManager: Shutting down and abandoning module TcpMessaging (416)
+[2022.03.01-19.12.12:253][496]LogModuleManager: Shutting down and abandoning module UdpMessaging (414)
+[2022.03.01-19.12.12:354][496]LogModuleManager: Shutting down and abandoning module SoundFields (412)
+[2022.03.01-19.12.12:354][496]LogModuleManager: Shutting down and abandoning module SignificanceManager (410)
+[2022.03.01-19.12.12:354][496]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (408)
+[2022.03.01-19.12.12:354][496]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (406)
+[2022.03.01-19.12.12:366][496]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (404)
+[2022.03.01-19.12.12:395][496]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (400)
+[2022.03.01-19.12.12:395][496]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (398)
+[2022.03.01-19.12.12:395][496]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (396)
+[2022.03.01-19.12.12:395][496]LogModuleManager: Shutting down and abandoning module ActorSequence (394)
+[2022.03.01-19.12.12:395][496]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (392)
+[2022.03.01-19.12.12:395][496]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (390)
+[2022.03.01-19.12.12:395][496]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (388)
+[2022.03.01-19.12.12:395][496]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (386)
+[2022.03.01-19.12.12:395][496]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (384)
+[2022.03.01-19.12.12:412][496]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (382)
+[2022.03.01-19.12.12:425][496]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.03.01-19.12.12:425][496]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (380)
+[2022.03.01-19.12.12:425][496]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (378)
+[2022.03.01-19.12.12:425][496]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (376)
+[2022.03.01-19.12.12:440][496]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (374)
+[2022.03.01-19.12.12:457][496]LogModuleManager: Shutting down and abandoning module MagicLeapController (372)
+[2022.03.01-19.12.12:457][496]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (370)
+[2022.03.01-19.12.12:457][496]LogModuleManager: Shutting down and abandoning module MagicLeapAR (368)
+[2022.03.01-19.12.12:458][496]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (366)
+[2022.03.01-19.12.12:458][496]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (364)
+[2022.03.01-19.12.12:458][496]LogModuleManager: Shutting down and abandoning module Niagara (362)
+[2022.03.01-19.12.12:539][496]LogModuleManager: Shutting down and abandoning module SignalProcessing (361)
+[2022.03.01-19.12.12:539][496]LogModuleManager: Shutting down and abandoning module NiagaraEditor (359)
+[2022.03.01-19.12.12:619][496]LogModuleManager: Shutting down and abandoning module NiagaraCore (356)
+[2022.03.01-19.12.12:619][496]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (354)
+[2022.03.01-19.12.12:620][496]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (352)
+[2022.03.01-19.12.12:639][496]LogModuleManager: Shutting down and abandoning module FacialAnimation (350)
+[2022.03.01-19.12.12:639][496]LogModuleManager: Shutting down and abandoning module DataValidation (348)
+[2022.03.01-19.12.12:639][496]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (346)
+[2022.03.01-19.12.12:660][496]LogModuleManager: Shutting down and abandoning module LevelEditor (345)
+[2022.03.01-19.12.12:743][496]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (344)
+[2022.03.01-19.12.12:787][496]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (342)
+[2022.03.01-19.12.12:809][496]LogModuleManager: Shutting down and abandoning module MainFrame (340)
+[2022.03.01-19.12.12:809][496]LogModuleManager: Shutting down and abandoning module HotReload (339)
+[2022.03.01-19.12.12:888][496]LogModuleManager: Shutting down and abandoning module ToolMenus (335)
+[2022.03.01-19.12.12:888][496]LogModuleManager: Shutting down and abandoning module ContentBrowser (333)
+[2022.03.01-19.12.12:888][496]LogModuleManager: Shutting down and abandoning module ContentBrowserData (332)
+[2022.03.01-19.12.12:888][496]LogModuleManager: Shutting down and abandoning module TreeMap (329)
+[2022.03.01-19.12.12:912][496]LogModuleManager: Shutting down and abandoning module RiderLoggingExtension (326)
+[2022.03.01-19.12.12:913][496]LogModuleManager: Shutting down and abandoning module RiderLink (324)
+[2022.03.01-19.12.12:954][496]LogModuleManager: Shutting down and abandoning module RD (322)
+[2022.03.01-19.12.12:954][496]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (320)
+[2022.03.01-19.12.12:954][496]LogModuleManager: Shutting down and abandoning module GameplayCameras (318)
+[2022.03.01-19.12.12:954][496]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (316)
+[2022.03.01-19.12.13:000][496]LogModuleManager: Shutting down and abandoning module AnimationSharing (314)
+[2022.03.01-19.12.13:000][496]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (312)
+[2022.03.01-19.12.13:000][496]LogModuleManager: Shutting down and abandoning module Paper2D (310)
+[2022.03.01-19.12.13:011][496]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (308)
+[2022.03.01-19.12.13:036][496]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (306)
+[2022.03.01-19.12.13:036][496]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (304)
+[2022.03.01-19.12.13:052][496]LogModuleManager: Shutting down and abandoning module PacketHandler (302)
+[2022.03.01-19.12.13:052][496]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (300)
+[2022.03.01-19.12.13:052][496]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (298)
+[2022.03.01-19.12.13:123][496]LogModuleManager: Shutting down and abandoning module MediaAssets (296)
+[2022.03.01-19.12.13:124][496]LogModuleManager: Shutting down and abandoning module Overlay (294)
+[2022.03.01-19.12.13:124][496]LogModuleManager: Shutting down and abandoning module OverlayEditor (293)
+[2022.03.01-19.12.13:124][496]LogModuleManager: Shutting down and abandoning module VREditor (290)
+[2022.03.01-19.12.13:152][496]LogModuleManager: Shutting down and abandoning module StringTableEditor (288)
+[2022.03.01-19.12.13:174][496]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (286)
+[2022.03.01-19.12.13:174][496]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (284)
+[2022.03.01-19.12.13:206][496]LogModuleManager: Shutting down and abandoning module FunctionalTesting (282)
+[2022.03.01-19.12.13:223][496]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (280)
+[2022.03.01-19.12.13:263][496]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (279)
+[2022.03.01-19.12.13:405][496]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2022.03.01-19.12.13:421][496]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2022.03.01-19.12.13:459][496]LogModuleManager: Shutting down and abandoning module MessageLog (273)
+[2022.03.01-19.12.13:459][496]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2022.03.01-19.12.13:489][496]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2022.03.01-19.12.13:489][496]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2022.03.01-19.12.13:508][496]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (262)
+[2022.03.01-19.12.13:508][496]LogModuleManager: Shutting down and abandoning module UnrealEd (260)
+[2022.03.01-19.12.13:508][496]LogModuleManager: Shutting down and abandoning module MRMesh (258)
+[2022.03.01-19.12.13:508][496]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (256)
+[2022.03.01-19.12.13:519][496]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (254)
+[2022.03.01-19.12.13:519][496]LogModuleManager: Shutting down and abandoning module XAudio2 (252)
+[2022.03.01-19.12.13:532][496]LogModuleManager: Shutting down and abandoning module Networking (250)
+[2022.03.01-19.12.13:532][496]LogModuleManager: Shutting down and abandoning module Core (248)
+[2022.03.01-19.12.13:532][496]LogModuleManager: Shutting down and abandoning module MaterialEditor (246)
+[2022.03.01-19.12.13:592][496]LogModuleManager: Shutting down and abandoning module MovieSceneTools (244)
+[2022.03.01-19.12.13:698][496]LogModuleManager: Shutting down and abandoning module CurveEditor (243)
+[2022.03.01-19.12.13:700][496]LogModuleManager: Shutting down and abandoning module Sequencer (241)
+[2022.03.01-19.12.13:777][496]LogModuleManager: Shutting down and abandoning module EditorStyle (240)
+[2022.03.01-19.12.13:855][496]LogModuleManager: Shutting down and abandoning module KismetCompiler (236)
+[2022.03.01-19.12.13:855][496]LogModuleManager: Shutting down and abandoning module MeshBuilder (234)
+[2022.03.01-19.12.13:855][496]LogModuleManager: Shutting down and abandoning module MeshUtilities (232)
+[2022.03.01-19.12.13:878][496]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (231)
+[2022.03.01-19.12.13:898][496]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (230)
+[2022.03.01-19.12.13:898][496]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (229)
+[2022.03.01-19.12.13:914][496]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (227)
+[2022.03.01-19.12.13:929][496]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (225)
+[2022.03.01-19.12.13:999][496]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (223)
+[2022.03.01-19.12.14:008][496]LogModuleManager: Shutting down and abandoning module MaterialBaking (219)
+[2022.03.01-19.12.14:025][496]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (214)
+[2022.03.01-19.12.14:025][496]LogModuleManager: Shutting down and abandoning module DerivedDataCache (212)
+[2022.03.01-19.12.14:044][496]LogModuleManager: Shutting down and abandoning module TargetPlatform (210)
+[2022.03.01-19.12.14:069][496]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (209)
+[2022.03.01-19.12.14:152][496]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (207)
+[2022.03.01-19.12.14:174][496]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (205)
+[2022.03.01-19.12.14:193][496]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (203)
+[2022.03.01-19.12.14:200][496]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (201)
+[2022.03.01-19.12.14:220][496]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (199)
+[2022.03.01-19.12.14:234][496]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (197)
+[2022.03.01-19.12.14:234][496]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (195)
+[2022.03.01-19.12.14:252][496]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (193)
+[2022.03.01-19.12.14:260][496]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (191)
+[2022.03.01-19.12.14:260][496]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (189)
+[2022.03.01-19.12.14:292][496]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (187)
+[2022.03.01-19.12.14:303][496]LogModuleManager: Shutting down and abandoning module ImageWrapper (186)
+[2022.03.01-19.12.14:303][496]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (183)
+[2022.03.01-19.12.14:311][496]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (181)
+[2022.03.01-19.12.14:320][496]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (179)
+[2022.03.01-19.12.14:320][496]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (177)
+[2022.03.01-19.12.14:328][496]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (175)
+[2022.03.01-19.12.14:328][496]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (173)
+[2022.03.01-19.12.14:328][496]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (171)
+[2022.03.01-19.12.14:343][496]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (169)
+[2022.03.01-19.12.14:381][496]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (167)
+[2022.03.01-19.12.14:381][496]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (165)
+[2022.03.01-19.12.14:381][496]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (163)
+[2022.03.01-19.12.14:381][496]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (161)
+[2022.03.01-19.12.14:381][496]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (159)
+[2022.03.01-19.12.14:461][496]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (157)
+[2022.03.01-19.12.14:492][496]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (155)
+[2022.03.01-19.12.14:509][496]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (153)
+[2022.03.01-19.12.14:520][496]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (151)
+[2022.03.01-19.12.14:536][496]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (149)
+[2022.03.01-19.12.14:555][496]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (147)
+[2022.03.01-19.12.14:585][496]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (145)
+[2022.03.01-19.12.14:585][496]LogModuleManager: Shutting down and abandoning module Messaging (143)
+[2022.03.01-19.12.14:585][496]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (141)
+[2022.03.01-19.12.14:592][496]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (139)
+[2022.03.01-19.12.14:610][496]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (137)
+[2022.03.01-19.12.14:610][496]LogModuleManager: Shutting down and abandoning module D3D11RHI (134)
+[2022.03.01-19.12.14:610][496]LogModuleManager: Shutting down and abandoning module InputCore (132)
+[2022.03.01-19.12.14:610][496]LogModuleManager: Shutting down and abandoning module Settings (130)
+[2022.03.01-19.12.14:610][496]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (128)
+[2022.03.01-19.12.14:613][496]LogModuleManager: Shutting down and abandoning module PhysXCooking (126)
+[2022.03.01-19.12.14:613][496]LogModuleManager: Shutting down and abandoning module Chaos (124)
+[2022.03.01-19.12.14:633][496]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (122)
+[2022.03.01-19.12.14:633][496]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (121)
+[2022.03.01-19.12.14:645][496]LogModuleManager: Shutting down and abandoning module AVEncoder (120)
+[2022.03.01-19.12.14:658][496]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (116)
+[2022.03.01-19.12.14:669][496]LogModuleManager: Shutting down and abandoning module SteamVRInput (114)
+[2022.03.01-19.12.14:669][496]LogModuleManager: Shutting down and abandoning module SteamVR (112)
+[2022.03.01-19.12.14:678][496]LogHMD: Freeing OpenVRDLLHandle.
+[2022.03.01-19.12.14:678][496]LogModuleManager: Shutting down and abandoning module OculusHMD (110)
+[2022.03.01-19.12.14:688][496]LogModuleManager: Shutting down and abandoning module OpenXRAR (108)
+[2022.03.01-19.12.14:688][496]LogModuleManager: Shutting down and abandoning module AugmentedReality (107)
+[2022.03.01-19.12.14:688][496]LogModuleManager: Shutting down and abandoning module OpenXRHandTracking (104)
+[2022.03.01-19.12.14:705][496]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.03.01-19.12.14:705][496]LogModuleManager: Shutting down and abandoning module OpenXRHMD (103)
+[2022.03.01-19.12.14:790][496]LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (100)
+[2022.03.01-19.12.14:790][496]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (98)
+[2022.03.01-19.12.14:790][496]LogModuleManager: Shutting down and abandoning module ChunkDownloader (96)
+[2022.03.01-19.12.14:792][496]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (94)
+[2022.03.01-19.12.14:792][496]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2022.03.01-19.12.14:792][496]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (88)
+[2022.03.01-19.12.14:809][496]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (86)
+[2022.03.01-19.12.14:827][496]LogModuleManager: Shutting down and abandoning module XMPP (81)
+[2022.03.01-19.12.14:849][496]LogModuleManager: Shutting down and abandoning module WebSockets (80)
+[2022.03.01-19.12.14:972][496]LogModuleManager: Shutting down and abandoning module HTTP (77)
+[2022.03.01-19.12.14:989][496]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.03.01-19.12.15:003][496]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2E212C0B-43A8-1460-376C-36BC56B99476%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=41e0e24e46fd3b1e669cb28aa25baf40%7C556b551a85d545b6bfc26602fc50e707%7C0e8d1fc1-c8f3-40b6-a437-ad16f1e95b75&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.03.01-19.12.15:003][496]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2022.03.01-19.12.15:046][496]LogModuleManager: Shutting down and abandoning module SSL (76)
+[2022.03.01-19.12.15:200][496]LogModuleManager: Shutting down and abandoning module WmfMedia (72)
+[2022.03.01-19.12.15:226][496]LogModuleManager: Shutting down and abandoning module Media (71)
+[2022.03.01-19.12.15:227][496]LogModuleManager: Shutting down and abandoning module MediaInfo (70)
+[2022.03.01-19.12.15:227][496]LogModuleManager: Shutting down and abandoning module MLSDK (66)
+[2022.03.01-19.12.15:245][496]LogModuleManager: Shutting down and abandoning module MagicLeap (64)
+[2022.03.01-19.12.15:245][496]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (62)
+[2022.03.01-19.12.15:245][496]LogModuleManager: Shutting down and abandoning module NiagaraShader (60)
+[2022.03.01-19.12.15:245][496]LogModuleManager: Shutting down and abandoning module ChaosCloth (58)
+[2022.03.01-19.12.15:259][496]LogModuleManager: Shutting down and abandoning module VariantManagerContent (56)
+[2022.03.01-19.12.15:259][496]LogModuleManager: Shutting down and abandoning module DatasmithContent (54)
+[2022.03.01-19.12.15:259][496]LogModuleManager: Shutting down and abandoning module PixWinPlugin (52)
+[2022.03.01-19.12.15:259][496]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2022.03.01-19.12.15:259][496]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2022.03.01-19.12.15:259][496]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (46)
+[2022.03.01-19.12.15:276][496]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2022.03.01-19.12.15:291][496]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2022.03.01-19.12.15:292][496]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2022.03.01-19.12.15:292][496]LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (38)
+[2022.03.01-19.12.15:329][496]LogModuleManager: Shutting down and abandoning module XGEController (36)
+[2022.03.01-19.12.15:342][496]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2022.03.01-19.12.15:363][496]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2022.03.01-19.12.15:431][496]LogModuleManager: Shutting down and abandoning module PropertyEditor (31)
+[2022.03.01-19.12.15:512][496]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2022.03.01-19.12.15:559][496]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2022.03.01-19.12.15:559][496]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2022.03.01-19.12.15:559][496]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2022.03.01-19.12.15:589][496]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.03.01-19.12.15:607][496]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.03.01-19.12.15:649][496]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.03.01-19.12.15:649][496]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.03.01-19.12.15:649][496]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.03.01-19.12.15:660][496]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.03.01-19.12.15:675][496]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.03.01-19.12.15:702][496]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.03.01-19.12.15:721][496]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.03.01-19.12.15:721][496]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.03.01-19.12.15:737][496]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.03.01-19.12.15:866][496]LogD3D11RHI: Shutdown
+[2022.03.01-19.12.15:866][496]LogD3D11RHI: CleanupD3DDevice
+[2022.03.01-19.12.16:983][496]LogExit: Exiting.
+[2022.03.01-19.12.17:015][496]Log file closed, 03/01/22 22:12:17

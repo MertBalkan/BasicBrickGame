@@ -1215,3 +1215,184 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.06-19.56.21:725][ 95]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2022.03.06-19.56.21:732][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
 [2022.03.06-19.56.21:768][ 96]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.03.06-20.02.20:162][357]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Backdrop)
+[2022.03.06-20.02.20:673][357]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Backdrop)
+[2022.03.06-20.02.30:971][807]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.03.06-20.02.38:648][221]Running F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject" -game -rocket -progress
+[2022.03.06-20.02.39:555][221]Discovering modules, targets and source code for project...
+[2022.03.06-20.02.52:939][221]Binding IntelliSense data...
+[2022.03.06-20.03.09:465][221]Binding IntelliSense data... 50%
+[2022.03.06-20.03.09:465][221]Binding IntelliSense data... 100%
+[2022.03.06-20.03.09:465][221]Writing project files...
+[2022.03.06-20.03.22:561][221]Writing project files... 33%
+[2022.03.06-20.03.22:561][221]Writing project files... 100%
+[2022.03.06-20.03.22:702][221]Candidate modules for hot reload:
+[2022.03.06-20.03.22:702][221]  BasicBrickGame
+[2022.03.06-20.03.22:702][221]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicBrickGame,1062 BasicBrickGameEditor Win64 Development -Project="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject" "D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject"  -IgnoreJunk]
+[2022.03.06-20.04.09:247][221]CompilerResultsLog: New page: Compilation - Mar 7, 2022, 2:04:09 AM
+[2022.03.06-20.04.09:247][221]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\BasicBrickGame).
+[2022.03.06-20.04.09:247][221]CompilerResultsLog: Creating makefile for BasicBrickGameEditor (no existing makefile)
+[2022.03.06-20.04.09:247][221]CompilerResultsLog: Parsing headers for BasicBrickGameEditor
+[2022.03.06-20.04.09:247][221]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\BasicBrickGame.uproject" "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\BasicBrickGameEditor\Development\BasicBrickGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mert_\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.06-20.04.09:247][221]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.03.06-20.04.09:247][221]CompilerResultsLog: Reflection code generated for BasicBrickGameEditor in 37.0540956 seconds
+[2022.03.06-20.04.09:247][221]CompilerResultsLog: Error: D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Source\BasicBrickGame\MyActorComponent.cpp(1) : error: Expected MyActorComponent.h to be first header included.
+[2022.03.06-20.04.09:247][221]CompilerResultsLog: Building BasicBrickGameEditor...
+[2022.03.06-20.04.09:247][221]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.06-20.04.09:247][221]CompilerResultsLog: Building 6 actions with 12 processes...
+[2022.03.06-20.04.09:247][221]CompilerResultsLog:   [1/6] BasicBrickGame.init.gen.cpp
+[2022.03.06-20.04.09:247][221]CompilerResultsLog:   [2/6] BallBound.cpp
+[2022.03.06-20.04.09:247][221]CompilerResultsLog:   [3/6] BallBound.gen.cpp
+[2022.03.06-20.04.09:247][221]CompilerResultsLog:   [4/6] UE4Editor-BasicBrickGame-1062.lib
+[2022.03.06-20.04.09:247][221]CompilerResultsLog:      D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-1062.lib kitapl??? ve D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-1062.exp nesnesi olu?turuluyor
+[2022.03.06-20.04.09:247][221]CompilerResultsLog:   [5/6] UE4Editor-BasicBrickGame-1062.dll
+[2022.03.06-20.04.09:247][221]CompilerResultsLog:      D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-1062.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-1062.suppressed.exp nesnesi olu?turuluyor
+[2022.03.06-20.04.09:247][221]CompilerResultsLog:   [6/6] BasicBrickGameEditor.target
+[2022.03.06-20.04.09:248][221]CompilerResultsLog: Total time in Parallel executor: 5.97 seconds
+[2022.03.06-20.04.09:248][221]CompilerResultsLog: Total execution time: 46.22 seconds
+[2022.03.06-20.04.09:248][221]LogMainFrame: MainFrame: Module compiling took 46.550 seconds
+[2022.03.06-20.04.09:291][221]LogClass: Could not find existing class BallBound in package /Script/BasicBrickGame for HotReload, assuming new class
+[2022.03.06-20.04.09:306][221]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BasicBrickGame' in 0.0003 seconds. Added 7 classes and 2 folders.
+[2022.03.06-20.04.09:311][221]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2022.03.06-20.04.09:421][221]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0085 seconds. Added 3829 classes and 930 folders.
+[2022.03.06-20.04.09:421][221]Display: HotReload took 46.7s.
+[2022.03.06-20.04.09:426][221]Warning: HotReload operation took 46.7s.
+[2022.03.06-20.04.09:707][221]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.03.06-20.04.10:225][221]LogHotReload: New module detected: UE4Editor-BasicBrickGame-1062.dll
+[2022.03.06-20.04.10:279][222]LogHotReload: Starting Hot-Reload from IDE
+[2022.03.06-20.04.10:305][222]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BasicBrickGame' in 0.0003 seconds. Added 7 classes and 2 folders.
+[2022.03.06-20.04.10:311][222]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.06-20.04.10:326][222]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0090 seconds. Added 3829 classes and 930 folders.
+[2022.03.06-20.04.10:330][222]Display: HotReload took  0.1s.
+[2022.03.06-20.11.18:116][498]Candidate modules for hot reload:
+[2022.03.06-20.11.18:116][498]  BasicBrickGame
+[2022.03.06-20.11.18:116][498]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicBrickGame,2487 BasicBrickGameEditor Win64 Development -Project="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject" "D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject"  -IgnoreJunk]
+[2022.03.06-20.11.18:596][498]Warning: Starting HotReload took  0.5s.
+[2022.03.06-20.11.25:508][905]Cmd: SELECT NONE
+[2022.03.06-20.11.28:131][988]CompilerResultsLog: New page: Compilation - Mar 7, 2022, 2:11:28 AM
+[2022.03.06-20.11.28:131][988]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\BasicBrickGame).
+[2022.03.06-20.11.28:131][988]CompilerResultsLog: Parsing headers for BasicBrickGameEditor
+[2022.03.06-20.11.28:131][988]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\BasicBrickGame.uproject" "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\BasicBrickGameEditor\Development\BasicBrickGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mert_\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.06-20.11.28:131][988]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.03.06-20.11.28:131][988]LogMainFrame: MainFrame: Module compiling took 10.020 seconds
+[2022.03.06-20.11.28:278][988]Warning: HotReload failed, recompile failed
+[2022.03.06-20.11.34:130][193]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.03.06-20.11.34:135][193]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.03.06-20.11.38:150][193]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.03.06-20.11.38:247][193]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.03.06-20.11.38:284][193]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.03.06-20.11.41:195][361]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_BallBound
+[2022.03.06-20.11.41:375][361]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.03.06-20.11.43:107][463]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_BallBound.BP_BallBound
+[2022.03.06-20.11.43:856][464]LogRenderer: Reallocating scene render targets to support 1136x884 Format 10 NumSamples 1 (Frame:1).
+[2022.03.06-20.11.44:554][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_BallBound" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/BP_BallBound.uasset" SILENT=true
+[2022.03.06-20.11.44:564][479]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/BP_BallBound298C367142CB61D1BFAD1298F575854A.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/BP_BallBound.uasset'
+[2022.03.06-20.11.44:578][479]AssetCheck: New page: Asset Save: BP_BallBound
+[2022.03.06-20.11.44:578][479]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_BallBound.BP_BallBound
+[2022.03.06-20.12.03:343][372]Candidate modules for hot reload:
+[2022.03.06-20.12.03:343][372]  BasicBrickGame
+[2022.03.06-20.12.03:343][372]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicBrickGame,7726 BasicBrickGameEditor Win64 Development -Project="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject" "D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject"  -IgnoreJunk]
+[2022.03.06-20.12.03:346][372]Warning: Starting HotReload took  0.0s.
+[2022.03.06-20.12.15:636][759]CompilerResultsLog: New page: Compilation - Mar 7, 2022, 2:12:15 AM
+[2022.03.06-20.12.15:637][759]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\BasicBrickGame).
+[2022.03.06-20.12.15:637][759]CompilerResultsLog: Parsing headers for BasicBrickGameEditor
+[2022.03.06-20.12.15:637][759]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\BasicBrickGame.uproject" "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\BasicBrickGameEditor\Development\BasicBrickGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mert_\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.06-20.12.15:637][759]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.03.06-20.12.15:637][759]CompilerResultsLog: Reflection code generated for BasicBrickGameEditor in 3.9774532 seconds
+[2022.03.06-20.12.15:637][759]CompilerResultsLog: Building BasicBrickGameEditor...
+[2022.03.06-20.12.15:637][759]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.06-20.12.15:637][759]CompilerResultsLog: Building 6 actions with 12 processes...
+[2022.03.06-20.12.15:637][759]CompilerResultsLog:   [1/6] BasicBrickGame.init.gen.cpp
+[2022.03.06-20.12.15:637][759]CompilerResultsLog:   [2/6] BallBound.cpp
+[2022.03.06-20.12.15:637][759]CompilerResultsLog:   [3/6] BallBound.gen.cpp
+[2022.03.06-20.12.15:637][759]CompilerResultsLog:   [4/6] UE4Editor-BasicBrickGame-7726.lib
+[2022.03.06-20.12.15:637][759]CompilerResultsLog:      D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-7726.lib kitapl??? ve D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-7726.exp nesnesi olu?turuluyor
+[2022.03.06-20.12.15:637][759]CompilerResultsLog:   [5/6] UE4Editor-BasicBrickGame-7726.dll
+[2022.03.06-20.12.15:637][759]CompilerResultsLog:      D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-7726.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-7726.suppressed.exp nesnesi olu?turuluyor
+[2022.03.06-20.12.15:637][759]CompilerResultsLog:   [6/6] BasicBrickGameEditor.target
+[2022.03.06-20.12.15:637][759]CompilerResultsLog: Total time in Parallel executor: 6.99 seconds
+[2022.03.06-20.12.15:637][759]CompilerResultsLog: Total execution time: 11.90 seconds
+[2022.03.06-20.12.15:637][759]LogMainFrame: MainFrame: Module compiling took 12.299 seconds
+[2022.03.06-20.12.15:669][759]LogClass: Could not find existing class BallBound in package /Script/BasicBrickGame for HotReload, assuming new class
+[2022.03.06-20.12.15:669][759]LogClass: Function OnOverlapBegin is new.
+[2022.03.06-20.12.15:692][759]LogHotReload: Re-instancing BallBound after hot-reload.
+[2022.03.06-20.12.15:881][759]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BasicBrickGame' in 0.0003 seconds. Added 7 classes and 2 folders.
+[2022.03.06-20.12.15:890][759]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2022.03.06-20.12.16:032][759]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0092 seconds. Added 3829 classes and 930 folders.
+[2022.03.06-20.12.16:032][759]Display: HotReload took 12.7s.
+[2022.03.06-20.12.24:539][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_BallBound" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/BP_BallBound.uasset" SILENT=true
+[2022.03.06-20.12.24:542][890]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/BP_BallBound63ED8C9B4B49A29F9370D5A8D02F61BF.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/BP_BallBound.uasset'
+[2022.03.06-20.12.24:560][890]AssetCheck: New page: Asset Save: BP_BallBound
+[2022.03.06-20.12.24:560][890]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_BallBound.BP_BallBound
+[2022.03.06-20.12.43:356][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_BallBound" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/BP_BallBound.uasset" SILENT=true
+[2022.03.06-20.12.43:359][386]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/BP_BallBound479DBDB34A2C6A6D24CFBB863C3A2063.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/BP_BallBound.uasset'
+[2022.03.06-20.12.43:375][386]AssetCheck: New page: Asset Save: BP_BallBound
+[2022.03.06-20.12.43:375][386]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_BallBound.BP_BallBound
+[2022.03.06-20.12.58:200][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.06-20.12.58:364][187]LogUObjectHash: Compacting FUObjectHashTables data took   6.54ms
+[2022.03.06-20.12.58:372][187]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Level16D8CA66247F11BE7D30DE3B005106A61.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1.umap'
+[2022.03.06-20.12.58:382][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2022.03.06-20.12.58:488][187]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Level1_BuiltData650E7FE14A30109E8EBD4BA7AF63DF50.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1_BuiltData.uasset'
+[2022.03.06-20.12.58:534][187]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.06-20.12.58:534][187]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
+[2022.03.06-20.12.58:534][187]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData
+[2022.03.06-20.12.58:814][204]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.06-20.12.58:926][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.06-20.12.58:927][204]PIE: New page: PIE session: Level1 (Mar 7, 2022, 2:12:58 AM)
+[2022.03.06-20.12.58:927][204]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-20.12.58:929][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002380s)
+[2022.03.06-20.12.58:930][204]LogAIModule: Creating AISystem for world Level1
+[2022.03.06-20.12.58:930][204]LogPlayLevel: PIE: World Init took: (0.001062s)
+[2022.03.06-20.12.58:930][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003600s)
+[2022.03.06-20.12.58:991][204]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2022.03.06-20.12.58:998][204]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.03.06-20.12.58:998][204]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.06-20.12.58:998][204]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.06-20.12.58:998][204]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.06-20.12.58:998][204]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.06-20.12.58:998][204]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.06-20.12.58:998][204]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.06-20.12.58:998][204]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.06-20.12.58:998][204]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.06-20.12.58:998][204]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.06-20.12.58:999][204]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.06-20.12.58:999][204]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.06-20.12.58:999][204]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.06-20.12.59:050][204]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.06-20.12.59:050][204]LogAudioMixer: Display: 1: FrontRight
+[2022.03.06-20.12.59:059][204]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.06-20.12.59:059][204]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.06-20.12.59:059][204]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.06-20.12.59:059][204]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.06-20.12.59:060][204]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.06-20.12.59:060][204]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.06-20.12.59:060][204]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.06-20.12.59:061][204]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.06-20.12.59:061][204]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.06-20.12.59:061][204]LogInit: FAudioDevice initialized.
+[2022.03.06-20.12.59:061][204]LogAudio: Display: Audio Device (ID: 6) registered with world 'Level1'.
+[2022.03.06-20.12.59:072][204]LogLoad: Game class is 'GM_BasicBrickMode_C'
+[2022.03.06-20.12.59:074][204]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2022.03.06-23.12.59
+[2022.03.06-20.12.59:074][204]LogWorld: Bringing up level for play took: 0.001519
+[2022.03.06-20.12.59:074][204]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2022.03.06-20.12.59:077][204]PIE: Server logged in
+[2022.03.06-20.12.59:077][204]PIE: Play in editor total start time 0.259 seconds.
+[2022.03.06-20.13.57:453][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-20.13.57:453][695]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-20.13.57:453][695]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.03.06-20.13.57:454][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-20.13.57:461][695]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.06-20.13.57:477][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-20.13.57:507][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-20.13.57:508][695]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-20.13.57:509][695]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-20.13.57:516][695]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2022.03.06-20.13.57:566][696]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.03.06-20.13.58:002][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.06-20.13.58:036][721]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2022.03.06-20.13.58:043][721]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Level1BC58503D49BC0C71C707E388B8E05331.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1.umap'
+[2022.03.06-20.13.58:055][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2022.03.06-20.13.58:070][721]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Level1_BuiltData629917CF419CF4C84ADAAAA0DAD51FF0.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1_BuiltData.uasset'
+[2022.03.06-20.13.58:103][721]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.06-20.13.58:103][721]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
+[2022.03.06-20.13.58:103][721]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData

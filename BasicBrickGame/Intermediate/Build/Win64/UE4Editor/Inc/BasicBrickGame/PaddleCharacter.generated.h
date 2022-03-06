@@ -60,8 +60,7 @@ public: \
 
 #define BasicBrickGame_Source_BasicBrickGame_PaddleCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SM_Padle() { return STRUCT_OFFSET(APaddleCharacter, SM_Padle); } \
-	FORCEINLINE static uint32 __PPO__FloatingMovement() { return STRUCT_OFFSET(APaddleCharacter, FloatingMovement); } \
-	FORCEINLINE static uint32 __PPO__BallObj() { return STRUCT_OFFSET(APaddleCharacter, BallObj); }
+	FORCEINLINE static uint32 __PPO__FloatingMovement() { return STRUCT_OFFSET(APaddleCharacter, FloatingMovement); }
 
 
 #define BasicBrickGame_Source_BasicBrickGame_PaddleCharacter_h_13_PROLOG

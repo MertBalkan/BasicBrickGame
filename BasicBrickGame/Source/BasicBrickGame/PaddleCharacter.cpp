@@ -22,11 +22,13 @@ APaddleCharacter::APaddleCharacter()
 	FloatingMovement = CreateDefaultSubobject<UFloatingPawnMovement>(TEXT("Floating Pawn Movement"));
 }
 
+
 // Called when the game starts or when spawned
 void APaddleCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 }
+
 
 // Called every frame
 void APaddleCharacter::Tick(float DeltaTime)

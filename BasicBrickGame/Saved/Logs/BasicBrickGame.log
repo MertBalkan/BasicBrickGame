@@ -1526,3 +1526,771 @@ Scale3D: 1.000000 1.000000 1.000000
 [2022.03.06-18.52.21:842][955]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
 [2022.03.06-18.52.21:933][955]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0097 seconds. Added 3827 classes and 930 folders.
 [2022.03.06-18.52.21:933][955]Display: HotReload took 35.1s.
+[2022.03.06-18.53.16:260][172]Candidate modules for hot reload:
+[2022.03.06-18.53.16:260][172]  BasicBrickGame
+[2022.03.06-18.53.16:260][172]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicBrickGame,9418 BasicBrickGameEditor Win64 Development -Project="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject" "D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject"  -IgnoreJunk]
+[2022.03.06-18.53.16:262][172]Warning: Starting HotReload took  0.0s.
+[2022.03.06-18.53.28:680][314]CompilerResultsLog: New page: Compilation - Mar 7, 2022, 12:53:28 AM
+[2022.03.06-18.53.28:680][314]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\BasicBrickGame).
+[2022.03.06-18.53.28:680][314]CompilerResultsLog: Building BasicBrickGameEditor...
+[2022.03.06-18.53.28:680][314]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.06-18.53.28:680][314]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.03.06-18.53.28:680][314]CompilerResultsLog:   [1/3] UE4Editor-BasicBrickGame-9418.lib
+[2022.03.06-18.53.28:680][314]CompilerResultsLog:      D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-9418.lib kitapl??? ve D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-9418.exp nesnesi olu?turuluyor
+[2022.03.06-18.53.28:680][314]CompilerResultsLog:   [2/3] UE4Editor-BasicBrickGame-9418.dll
+[2022.03.06-18.53.28:680][314]CompilerResultsLog:      D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-9418.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-9418.suppressed.exp nesnesi olu?turuluyor
+[2022.03.06-18.53.28:680][314]CompilerResultsLog:   [3/3] BasicBrickGameEditor.target
+[2022.03.06-18.53.28:680][314]CompilerResultsLog: Total time in Parallel executor: 1.12 seconds
+[2022.03.06-18.53.28:680][314]CompilerResultsLog: Total execution time: 11.88 seconds
+[2022.03.06-18.53.28:680][314]LogMainFrame: MainFrame: Module compiling took 12.423 seconds
+[2022.03.06-18.53.28:736][314]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BasicBrickGame' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2022.03.06-18.53.28:745][314]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.03.06-18.53.28:861][314]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0140 seconds. Added 3827 classes and 930 folders.
+[2022.03.06-18.53.28:861][314]Display: HotReload took 12.6s.
+[2022.03.06-18.57.13:846][532]LogUObjectHash: Compacting FUObjectHashTables data took   4.73ms
+[2022.03.06-18.57.13:847][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Autosaves/Game/Levels/Level1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.03.06-18.57.13:850][532]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Level1_Auto2DFF0FA394BADBC99048867B4E45B09EF.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Autosaves/Game/Levels/Level1_Auto2.umap'
+[2022.03.06-18.57.13:851][532]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level1' took 0.110
+[2022.03.06-18.57.13:851][532]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.110
+[2022.03.06-19.13.36:379][580]Candidate modules for hot reload:
+[2022.03.06-19.13.36:379][580]  BasicBrickGame
+[2022.03.06-19.13.36:379][580]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicBrickGame,0223 BasicBrickGameEditor Win64 Development -Project="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject" "D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject"  -IgnoreJunk]
+[2022.03.06-19.13.36:518][580]Warning: Starting HotReload took  0.3s.
+[2022.03.06-19.14.12:922][690]CompilerResultsLog: New page: Compilation - Mar 7, 2022, 1:14:12 AM
+[2022.03.06-19.14.12:949][690]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\BasicBrickGame).
+[2022.03.06-19.14.12:956][690]CompilerResultsLog: Parsing headers for BasicBrickGameEditor
+[2022.03.06-19.14.12:956][690]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\BasicBrickGame.uproject" "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\BasicBrickGameEditor\Development\BasicBrickGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mert_\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.06-19.14.12:956][690]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.03.06-19.14.12:956][690]CompilerResultsLog: Reflection code generated for BasicBrickGameEditor in 24.1063701 seconds
+[2022.03.06-19.14.12:956][690]CompilerResultsLog: Building BasicBrickGameEditor...
+[2022.03.06-19.14.12:956][690]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.06-19.14.12:957][690]CompilerResultsLog: Building 8 actions with 12 processes...
+[2022.03.06-19.14.12:957][690]CompilerResultsLog:   [1/8] BasicBrickGame.init.gen.cpp
+[2022.03.06-19.14.12:957][690]CompilerResultsLog:   [2/8] PaddleCharacter.cpp
+[2022.03.06-19.14.12:957][690]CompilerResultsLog:   [3/8] PaddleCharacter.gen.cpp
+[2022.03.06-19.14.12:957][690]CompilerResultsLog:   [4/8] PaddlePlayerController.gen.cpp
+[2022.03.06-19.14.12:957][690]CompilerResultsLog:   [5/8] PaddlePlayerController.cpp
+[2022.03.06-19.14.12:957][690]CompilerResultsLog:   [6/8] UE4Editor-BasicBrickGame-0223.lib
+[2022.03.06-19.14.12:957][690]CompilerResultsLog:      D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-0223.lib kitapl??? ve D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-0223.exp nesnesi olu?turuluyor
+[2022.03.06-19.14.12:957][690]CompilerResultsLog:   [7/8] UE4Editor-BasicBrickGame-0223.dll
+[2022.03.06-19.14.12:957][690]CompilerResultsLog:      D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-0223.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-0223.suppressed.exp nesnesi olu?turuluyor
+[2022.03.06-19.14.12:957][690]CompilerResultsLog:   [8/8] BasicBrickGameEditor.target
+[2022.03.06-19.14.12:957][690]CompilerResultsLog: Total time in Parallel executor: 7.99 seconds
+[2022.03.06-19.14.12:957][690]CompilerResultsLog: Total execution time: 35.71 seconds
+[2022.03.06-19.14.12:957][690]LogMainFrame: MainFrame: Module compiling took 36.703 seconds
+[2022.03.06-19.14.13:220][690]LogClass: Could not find existing class PaddleCharacter in package /Script/BasicBrickGame for HotReload, assuming new class
+[2022.03.06-19.14.13:220][690]LogClass: Could not find existing class PaddlePlayerController in package /Script/BasicBrickGame for HotReload, assuming new class
+[2022.03.06-19.14.13:220][690]LogClass: Function SetupInputComponent is new.
+[2022.03.06-19.14.13:357][690]LogHotReload: Re-instancing PaddleCharacter after hot-reload.
+[2022.03.06-19.14.13:956][690]LogHotReload: Re-instancing PaddlePlayerController after hot-reload.
+[2022.03.06-19.14.14:004][690]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BasicBrickGame' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2022.03.06-19.14.14:045][690]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.03.06-19.14.14:935][690]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0197 seconds. Added 3827 classes and 930 folders.
+[2022.03.06-19.14.14:935][690]Display: HotReload took 38.7s.
+[2022.03.06-19.14.54:169][833]Candidate modules for hot reload:
+[2022.03.06-19.14.54:169][833]  BasicBrickGame
+[2022.03.06-19.14.54:170][833]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicBrickGame,6881 BasicBrickGameEditor Win64 Development -Project="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject" "D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject"  -IgnoreJunk]
+[2022.03.06-19.14.54:172][833]Warning: Starting HotReload took  0.0s.
+[2022.03.06-19.15.20:436][ 58]CompilerResultsLog: New page: Compilation - Mar 7, 2022, 1:15:20 AM
+[2022.03.06-19.15.20:436][ 58]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\BasicBrickGame).
+[2022.03.06-19.15.20:436][ 58]CompilerResultsLog: Parsing headers for BasicBrickGameEditor
+[2022.03.06-19.15.20:436][ 58]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\BasicBrickGame.uproject" "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\BasicBrickGameEditor\Development\BasicBrickGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mert_\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.06-19.15.20:436][ 58]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.03.06-19.15.20:436][ 58]CompilerResultsLog: Reflection code generated for BasicBrickGameEditor in 22.1306237 seconds
+[2022.03.06-19.15.20:437][ 58]CompilerResultsLog: Building BasicBrickGameEditor...
+[2022.03.06-19.15.20:437][ 58]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.06-19.15.20:437][ 58]CompilerResultsLog: Building 5 actions with 12 processes...
+[2022.03.06-19.15.20:437][ 58]LogMainFrame: MainFrame: Module compiling took 26.274 seconds
+[2022.03.06-19.15.20:670][ 58]Warning: HotReload failed, recompile failed
+[2022.03.06-19.15.21:935][123]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.06-19.15.21:954][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.06-19.15.21:954][123]PIE: New page: PIE session: Level1 (Mar 7, 2022, 1:15:21 AM)
+[2022.03.06-19.15.21:954][123]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.15.21:992][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038466s)
+[2022.03.06-19.15.22:124][123]LogAIModule: Creating AISystem for world Level1
+[2022.03.06-19.15.22:154][123]LogPlayLevel: PIE: World Init took: (0.161912s)
+[2022.03.06-19.15.22:154][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.200616s)
+[2022.03.06-19.15.22:348][123]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2022.03.06-19.15.22:368][123]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.03.06-19.15.22:368][123]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.06-19.15.22:368][123]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.06-19.15.22:368][123]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.06-19.15.22:368][123]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.06-19.15.22:368][123]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.06-19.15.22:368][123]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.06-19.15.22:368][123]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.06-19.15.22:368][123]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.06-19.15.22:369][123]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.06-19.15.22:369][123]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.06-19.15.22:369][123]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.06-19.15.22:369][123]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.06-19.15.22:412][123]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.06-19.15.22:412][123]LogAudioMixer: Display: 1: FrontRight
+[2022.03.06-19.15.22:421][123]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.06-19.15.22:421][123]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.06-19.15.22:421][123]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.06-19.15.22:421][123]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.06-19.15.22:422][123]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.06-19.15.22:422][123]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.06-19.15.22:422][123]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.06-19.15.22:453][123]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.06-19.15.22:453][123]LogInit: FAudioDevice initialized.
+[2022.03.06-19.15.22:453][123]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.06-19.15.22:453][123]LogAudio: Display: Audio Device (ID: 10) registered with world 'Level1'.
+[2022.03.06-19.15.22:490][123]LogLoad: Game class is 'GM_BasicBrickMode_C'
+[2022.03.06-19.15.22:604][123]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2022.03.06-22.15.22
+[2022.03.06-19.15.22:604][123]LogWorld: Bringing up level for play took: 0.090080
+[2022.03.06-19.15.22:643][123]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2022.03.06-19.15.22:777][123]PIE: Server logged in
+[2022.03.06-19.15.22:778][123]PIE: Play in editor total start time 0.836 seconds.
+[2022.03.06-19.15.24:138][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.15.24:138][188]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.15.24:164][188]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.03.06-19.15.24:164][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.15.24:333][188]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.06-19.15.24:636][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.15.24:675][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.15.24:676][188]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.15.24:677][188]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.15.24:749][188]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2022.03.06-19.15.24:875][189]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.03.06-19.15.27:334][332]Cmd: DELETE
+[2022.03.06-19.15.27:345][332]Cmd: ACTOR DELETE
+[2022.03.06-19.15.28:187][332]LogEditorActor: Deleted Actor: BP_Ball_C
+[2022.03.06-19.15.28:210][332]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2022.03.06-19.15.28:230][332]LogEditorActor: Deleted 1 Actors (0.221 secs)
+[2022.03.06-19.15.29:136][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.06-19.15.29:155][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.03.06-19.15.29:187][382]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Level1AC098E86440A04F1A0B4BB9F70EDB9A0.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1.umap'
+[2022.03.06-19.15.29:209][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2022.03.06-19.15.29:247][382]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Level1_BuiltDataB621ADFF44D3AC01AD1A438263F14B87.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1_BuiltData.uasset'
+[2022.03.06-19.15.29:261][382]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.06-19.15.29:261][382]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
+[2022.03.06-19.15.29:261][382]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData
+[2022.03.06-19.15.34:094][441]Candidate modules for hot reload:
+[2022.03.06-19.15.34:094][441]  BasicBrickGame
+[2022.03.06-19.15.34:094][441]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicBrickGame,8775 BasicBrickGameEditor Win64 Development -Project="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject" "D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject"  -IgnoreJunk]
+[2022.03.06-19.15.34:097][441]Warning: Starting HotReload took  0.0s.
+[2022.03.06-19.15.39:702][762]CompilerResultsLog: New page: Compilation - Mar 7, 2022, 1:15:39 AM
+[2022.03.06-19.15.39:702][762]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\BasicBrickGame).
+[2022.03.06-19.15.39:702][762]CompilerResultsLog: Building BasicBrickGameEditor...
+[2022.03.06-19.15.39:702][762]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.06-19.15.39:702][762]CompilerResultsLog: Building 5 actions with 12 processes...
+[2022.03.06-19.15.39:702][762]CompilerResultsLog:   [1/5] PaddlePlayerController.gen.cpp
+[2022.03.06-19.15.39:702][762]CompilerResultsLog:   [2/5] PaddlePlayerController.cpp
+[2022.03.06-19.15.39:702][762]CompilerResultsLog:   [3/5] UE4Editor-BasicBrickGame-8775.lib
+[2022.03.06-19.15.39:702][762]CompilerResultsLog:      D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-8775.lib kitapl??? ve D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-8775.exp nesnesi olu?turuluyor
+[2022.03.06-19.15.39:702][762]CompilerResultsLog:   [4/5] UE4Editor-BasicBrickGame-8775.dll
+[2022.03.06-19.15.39:702][762]CompilerResultsLog:      D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-8775.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-8775.suppressed.exp nesnesi olu?turuluyor
+[2022.03.06-19.15.39:702][762]CompilerResultsLog:   [5/5] BasicBrickGameEditor.target
+[2022.03.06-19.15.39:702][762]CompilerResultsLog: Total time in Parallel executor: 4.66 seconds
+[2022.03.06-19.15.39:702][762]CompilerResultsLog: Total execution time: 5.51 seconds
+[2022.03.06-19.15.39:702][762]LogMainFrame: MainFrame: Module compiling took 5.612 seconds
+[2022.03.06-19.15.39:734][762]LogClass: Could not find existing class PaddlePlayerController in package /Script/BasicBrickGame for HotReload, assuming new class
+[2022.03.06-19.15.39:735][762]LogClass: Function SetupInputComponent is new.
+[2022.03.06-19.15.39:742][762]LogHotReload: Re-instancing PaddlePlayerController after hot-reload.
+[2022.03.06-19.15.39:778][762]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BasicBrickGame' in 0.0002 seconds. Added 5 classes and 2 folders.
+[2022.03.06-19.15.39:783][762]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.03.06-19.15.39:861][762]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0086 seconds. Added 3827 classes and 930 folders.
+[2022.03.06-19.15.39:861][762]Display: HotReload took  5.8s.
+[2022.03.06-19.17.41:073][989]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.06-19.17.41:077][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.06-19.17.41:077][989]PIE: New page: PIE session: Level1 (Mar 7, 2022, 1:17:41 AM)
+[2022.03.06-19.17.41:077][989]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.17.41:079][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001320s)
+[2022.03.06-19.17.41:079][989]LogAIModule: Creating AISystem for world Level1
+[2022.03.06-19.17.41:080][989]LogPlayLevel: PIE: World Init took: (0.001107s)
+[2022.03.06-19.17.41:080][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002572s)
+[2022.03.06-19.17.41:154][989]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2022.03.06-19.17.41:156][989]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.03.06-19.17.41:156][989]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.06-19.17.41:156][989]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.06-19.17.41:156][989]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.06-19.17.41:156][989]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.06-19.17.41:156][989]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.06-19.17.41:156][989]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.06-19.17.41:156][989]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.06-19.17.41:156][989]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.06-19.17.41:156][989]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.06-19.17.41:156][989]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.06-19.17.41:156][989]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.06-19.17.41:157][989]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.06-19.17.41:161][989]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.06-19.17.41:161][989]LogAudioMixer: Display: 1: FrontRight
+[2022.03.06-19.17.41:171][989]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.06-19.17.41:172][989]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.06-19.17.41:172][989]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.06-19.17.41:172][989]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.06-19.17.41:172][989]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.06-19.17.41:172][989]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.06-19.17.41:172][989]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.06-19.17.41:173][989]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.06-19.17.41:173][989]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.06-19.17.41:173][989]LogInit: FAudioDevice initialized.
+[2022.03.06-19.17.41:173][989]LogAudio: Display: Audio Device (ID: 11) registered with world 'Level1'.
+[2022.03.06-19.17.41:182][989]LogLoad: Game class is 'GM_BasicBrickMode_C'
+[2022.03.06-19.17.41:183][989]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2022.03.06-22.17.41
+[2022.03.06-19.17.41:183][989]LogWorld: Bringing up level for play took: 0.000421
+[2022.03.06-19.17.41:183][989]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2022.03.06-19.17.41:185][989]PIE: Server logged in
+[2022.03.06-19.17.41:186][989]PIE: Play in editor total start time 0.109 seconds.
+[2022.03.06-19.17.42:236][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.17.42:236][ 51]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.17.42:236][ 51]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.03.06-19.17.42:236][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.17.42:246][ 51]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.06-19.17.42:251][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.17.42:272][ 51]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.06-19.17.42:273][ 51]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.17.42:274][ 51]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.17.42:276][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.17.42:296][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2022.03.06-19.17.42:315][ 52]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.03.06-19.17.43:724][ 95]Candidate modules for hot reload:
+[2022.03.06-19.17.43:724][ 95]  BasicBrickGame
+[2022.03.06-19.17.43:725][ 95]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicBrickGame,0699 BasicBrickGameEditor Win64 Development -Project="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject" "D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/BasicBrickGame.uproject"  -IgnoreJunk]
+[2022.03.06-19.17.43:728][ 95]Warning: Starting HotReload took  0.0s.
+[2022.03.06-19.17.44:703][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.06-19.17.44:737][143]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2022.03.06-19.17.44:742][143]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Level178FFCE434F57D7F9FCBF7AB748AA1171.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1.umap'
+[2022.03.06-19.17.44:757][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2022.03.06-19.17.44:777][143]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Level1_BuiltData3A13FAAE44B92C25CFAEB381AB6E7889.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1_BuiltData.uasset'
+[2022.03.06-19.17.44:799][143]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.06-19.17.44:799][143]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
+[2022.03.06-19.17.44:799][143]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData
+[2022.03.06-19.17.46:064][218]CompilerResultsLog: New page: Compilation - Mar 7, 2022, 1:17:46 AM
+[2022.03.06-19.17.46:064][218]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\BasicBrickGame).
+[2022.03.06-19.17.46:064][218]CompilerResultsLog: Building BasicBrickGameEditor...
+[2022.03.06-19.17.46:064][218]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.06-19.17.46:064][218]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.03.06-19.17.46:064][218]CompilerResultsLog:   [1/3] UE4Editor-BasicBrickGame-0699.lib
+[2022.03.06-19.17.46:064][218]CompilerResultsLog:      D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-0699.lib kitapl??? ve D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-0699.exp nesnesi olu?turuluyor
+[2022.03.06-19.17.46:064][218]CompilerResultsLog:   [2/3] UE4Editor-BasicBrickGame-0699.dll
+[2022.03.06-19.17.46:065][218]CompilerResultsLog:      D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-0699.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\UE4Editor-BasicBrickGame-0699.suppressed.exp nesnesi olu?turuluyor
+[2022.03.06-19.17.46:065][218]CompilerResultsLog:   [3/3] BasicBrickGameEditor.target
+[2022.03.06-19.17.46:065][218]CompilerResultsLog: Total time in Parallel executor: 1.32 seconds
+[2022.03.06-19.17.46:065][218]CompilerResultsLog: Total execution time: 2.22 seconds
+[2022.03.06-19.17.46:065][218]LogMainFrame: MainFrame: Module compiling took 2.344 seconds
+[2022.03.06-19.17.46:126][218]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BasicBrickGame' in 0.0015 seconds. Added 5 classes and 2 folders.
+[2022.03.06-19.17.46:134][218]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.03.06-19.17.46:227][218]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0121 seconds. Added 3827 classes and 930 folders.
+[2022.03.06-19.17.46:228][218]Display: HotReload took  2.5s.
+[2022.03.06-19.17.47:597][283]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.06-19.17.47:603][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.06-19.17.47:603][283]PIE: New page: PIE session: Level1 (Mar 7, 2022, 1:17:47 AM)
+[2022.03.06-19.17.47:603][283]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.17.47:604][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001182s)
+[2022.03.06-19.17.47:605][283]LogAIModule: Creating AISystem for world Level1
+[2022.03.06-19.17.47:605][283]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2022.03.06-19.17.47:605][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002341s)
+[2022.03.06-19.17.47:677][283]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2022.03.06-19.17.47:678][283]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.03.06-19.17.47:678][283]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.06-19.17.47:678][283]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.06-19.17.47:678][283]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.06-19.17.47:678][283]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.06-19.17.47:678][283]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.06-19.17.47:678][283]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.06-19.17.47:678][283]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.06-19.17.47:678][283]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.06-19.17.47:678][283]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.06-19.17.47:678][283]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.06-19.17.47:678][283]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.06-19.17.47:678][283]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.06-19.17.47:682][283]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.06-19.17.47:682][283]LogAudioMixer: Display: 1: FrontRight
+[2022.03.06-19.17.47:692][283]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.06-19.17.47:693][283]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.06-19.17.47:693][283]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.06-19.17.47:693][283]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.06-19.17.47:693][283]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.06-19.17.47:693][283]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.06-19.17.47:693][283]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.06-19.17.47:696][283]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.06-19.17.47:696][283]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.06-19.17.47:696][283]LogInit: FAudioDevice initialized.
+[2022.03.06-19.17.47:696][283]LogAudio: Display: Audio Device (ID: 12) registered with world 'Level1'.
+[2022.03.06-19.17.47:710][283]LogLoad: Game class is 'GM_BasicBrickMode_C'
+[2022.03.06-19.17.47:711][283]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2022.03.06-22.17.47
+[2022.03.06-19.17.47:711][283]LogWorld: Bringing up level for play took: 0.000653
+[2022.03.06-19.17.47:711][283]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2022.03.06-19.17.47:713][283]PIE: Server logged in
+[2022.03.06-19.17.47:714][283]PIE: Play in editor total start time 0.112 seconds.
+[2022.03.06-19.17.51:077][482]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.17.51:077][482]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.17.51:077][482]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.03.06-19.17.51:078][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.17.51:086][482]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.06-19.17.51:092][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.17.51:115][482]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.06-19.17.51:120][482]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.17.51:121][482]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.17.51:123][482]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.17.51:143][482]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2022.03.06-19.17.51:160][483]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.03.06-19.17.51:878][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.06-19.17.51:908][523]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.03.06-19.17.51:912][523]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Level1FAE30BE04EAD627CE79014A248BD9667.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1.umap'
+[2022.03.06-19.17.51:922][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2022.03.06-19.17.51:940][523]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/Level1_BuiltDataBDE2586640160DFD58DB79ABDE94D802.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Levels/Level1_BuiltData.uasset'
+[2022.03.06-19.17.51:953][523]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.06-19.17.51:953][523]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
+[2022.03.06-19.17.51:953][523]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData
+[2022.03.06-19.18.22:492][653]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PC_PaddleController.PC_PaddleController
+[2022.03.06-19.18.26:669][689]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.03.06-19.18.26:689][689]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.03.06-19.18.36:022][150]BlueprintLog: New page: Compile PC_PaddleController
+[2022.03.06-19.18.36:115][150]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2022.03.06-19.19.01:231][299]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.06-19.19.01:236][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.06-19.19.01:236][299]PIE: New page: PIE session: Level1 (Mar 7, 2022, 1:19:01 AM)
+[2022.03.06-19.19.01:236][299]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.19.01:237][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001069s)
+[2022.03.06-19.19.01:238][299]LogAIModule: Creating AISystem for world Level1
+[2022.03.06-19.19.01:238][299]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2022.03.06-19.19.01:238][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002170s)
+[2022.03.06-19.19.01:266][299]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.03.06-19.19.01:267][299]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.03.06-19.19.01:267][299]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.06-19.19.01:267][299]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.06-19.19.01:267][299]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.06-19.19.01:267][299]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.06-19.19.01:267][299]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.06-19.19.01:267][299]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.06-19.19.01:267][299]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.06-19.19.01:267][299]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.06-19.19.01:268][299]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.06-19.19.01:268][299]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.06-19.19.01:268][299]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.06-19.19.01:268][299]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.06-19.19.01:272][299]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.06-19.19.01:272][299]LogAudioMixer: Display: 1: FrontRight
+[2022.03.06-19.19.01:280][299]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.06-19.19.01:281][299]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.06-19.19.01:281][299]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.06-19.19.01:281][299]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.06-19.19.01:281][299]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.06-19.19.01:281][299]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.06-19.19.01:281][299]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.06-19.19.01:282][299]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.06-19.19.01:282][299]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.06-19.19.01:282][299]LogInit: FAudioDevice initialized.
+[2022.03.06-19.19.01:282][299]LogAudio: Display: Audio Device (ID: 13) registered with world 'Level1'.
+[2022.03.06-19.19.01:294][299]LogLoad: Game class is 'GM_BasicBrickMode_C'
+[2022.03.06-19.19.01:295][299]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2022.03.06-22.19.01
+[2022.03.06-19.19.01:295][299]LogWorld: Bringing up level for play took: 0.000647
+[2022.03.06-19.19.01:295][299]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2022.03.06-19.19.01:422][299]PIE: Server logged in
+[2022.03.06-19.19.01:423][299]PIE: Play in editor total start time 0.187 seconds.
+[2022.03.06-19.19.06:597][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.19.06:597][592]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.19.06:597][592]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.03.06-19.19.06:597][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.19.06:607][592]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.06-19.19.06:612][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.19.06:637][592]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.06-19.19.06:637][592]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.19.06:638][592]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.19.06:640][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.19.06:644][592]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2022.03.06-19.19.06:689][594]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.03.06-19.19.07:251][627]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.06-19.19.07:256][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.06-19.19.07:256][627]PIE: New page: PIE session: Level1 (Mar 7, 2022, 1:19:07 AM)
+[2022.03.06-19.19.07:275][627]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.19.07:277][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001020s)
+[2022.03.06-19.19.07:277][627]LogAIModule: Creating AISystem for world Level1
+[2022.03.06-19.19.07:278][627]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2022.03.06-19.19.07:278][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002150s)
+[2022.03.06-19.19.07:305][627]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2022.03.06-19.19.07:305][627]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.03.06-19.19.07:305][627]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.06-19.19.07:305][627]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.06-19.19.07:305][627]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.06-19.19.07:305][627]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.06-19.19.07:305][627]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.06-19.19.07:305][627]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.06-19.19.07:305][627]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.06-19.19.07:305][627]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.06-19.19.07:305][627]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.06-19.19.07:305][627]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.06-19.19.07:305][627]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.06-19.19.07:305][627]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.06-19.19.07:309][627]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.06-19.19.07:309][627]LogAudioMixer: Display: 1: FrontRight
+[2022.03.06-19.19.07:317][627]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.06-19.19.07:317][627]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.06-19.19.07:317][627]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.06-19.19.07:317][627]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.06-19.19.07:318][627]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.06-19.19.07:318][627]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.06-19.19.07:318][627]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.06-19.19.07:319][627]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.06-19.19.07:319][627]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.06-19.19.07:319][627]LogInit: FAudioDevice initialized.
+[2022.03.06-19.19.07:319][627]LogAudio: Display: Audio Device (ID: 14) registered with world 'Level1'.
+[2022.03.06-19.19.07:327][627]LogLoad: Game class is 'GM_BasicBrickMode_C'
+[2022.03.06-19.19.07:329][627]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2022.03.06-22.19.07
+[2022.03.06-19.19.07:329][627]LogWorld: Bringing up level for play took: 0.000582
+[2022.03.06-19.19.07:329][627]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2022.03.06-19.19.07:332][627]PIE: Server logged in
+[2022.03.06-19.19.07:333][627]PIE: Play in editor total start time 0.078 seconds.
+[2022.03.06-19.19.13:277][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.19.13:277][977]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.19.13:277][977]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.03.06-19.19.13:277][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.19.13:283][977]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.06-19.19.13:288][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.19.13:313][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.19.13:313][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.19.13:314][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.19.13:320][977]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2022.03.06-19.19.13:341][978]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2022.03.06-19.19.14:089][ 21]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.06-19.19.14:094][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.06-19.19.14:094][ 21]PIE: New page: PIE session: Level1 (Mar 7, 2022, 1:19:14 AM)
+[2022.03.06-19.19.14:094][ 21]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.19.14:095][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001044s)
+[2022.03.06-19.19.14:096][ 21]LogAIModule: Creating AISystem for world Level1
+[2022.03.06-19.19.14:096][ 21]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2022.03.06-19.19.14:096][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002203s)
+[2022.03.06-19.19.14:124][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.03.06-19.19.14:124][ 21]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.03.06-19.19.14:124][ 21]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.06-19.19.14:124][ 21]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.06-19.19.14:124][ 21]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.06-19.19.14:124][ 21]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.06-19.19.14:124][ 21]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.06-19.19.14:124][ 21]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.06-19.19.14:124][ 21]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.06-19.19.14:124][ 21]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.06-19.19.14:125][ 21]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.06-19.19.14:125][ 21]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.06-19.19.14:125][ 21]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.06-19.19.14:125][ 21]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.06-19.19.14:128][ 21]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.06-19.19.14:128][ 21]LogAudioMixer: Display: 1: FrontRight
+[2022.03.06-19.19.14:136][ 21]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.06-19.19.14:137][ 21]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.06-19.19.14:137][ 21]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.06-19.19.14:137][ 21]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.06-19.19.14:137][ 21]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.06-19.19.14:137][ 21]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.06-19.19.14:137][ 21]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.06-19.19.14:138][ 21]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.06-19.19.14:138][ 21]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.06-19.19.14:138][ 21]LogInit: FAudioDevice initialized.
+[2022.03.06-19.19.14:138][ 21]LogAudio: Display: Audio Device (ID: 15) registered with world 'Level1'.
+[2022.03.06-19.19.14:145][ 21]LogLoad: Game class is 'GM_BasicBrickMode_C'
+[2022.03.06-19.19.14:145][ 21]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2022.03.06-22.19.14
+[2022.03.06-19.19.14:145][ 21]LogWorld: Bringing up level for play took: 0.000500
+[2022.03.06-19.19.14:146][ 21]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2022.03.06-19.19.14:148][ 21]PIE: Server logged in
+[2022.03.06-19.19.14:148][ 21]PIE: Play in editor total start time 0.056 seconds.
+[2022.03.06-19.19.16:166][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.19.16:166][141]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.19.16:166][141]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.03.06-19.19.16:166][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.19.16:172][141]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.06-19.19.16:177][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.19.16:203][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.19.16:203][141]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.19.16:204][141]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.19.16:209][141]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2022.03.06-19.19.16:255][143]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2022.03.06-19.20.12:158][347]LogLinker: Warning: [AssetLog] D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Content\Materials\M_Brick.uasset: Failed to load '/Game/Materials/CollisionMaterial': Can't find file.
+[2022.03.06-19.20.12:159][347]LogLinker: Warning: [AssetLog] D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Content\Materials\M_Brick.uasset: Failed to load '/Game/Materials/CollisionMaterial': Can't find file.
+[2022.03.06-19.20.12:159][347]LogLinker: Warning: [AssetLog] D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Content\Materials\M_Brick.uasset: Failed to load '/Game/Materials/CollisionMaterial': Can't find file.
+[2022.03.06-19.20.12:273][347]LogLinker: Warning: [AssetLog] D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Content\Materials\M_BrickGreen.uasset: Failed to load '/Game/Materials/CollisionMaterial': Can't find file.
+[2022.03.06-19.20.12:273][347]LogLinker: Warning: [AssetLog] D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Content\Materials\M_BrickGreen.uasset: Failed to load '/Game/Materials/CollisionMaterial': Can't find file.
+[2022.03.06-19.20.12:273][347]LogLinker: Warning: [AssetLog] D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Content\Materials\M_Brick.uasset: Failed to load '/Game/Materials/CollisionMaterial': Can't find file.
+[2022.03.06-19.20.12:273][347]LoadErrors: Failed to load /Game/Materials/CollisionMaterial.CollisionMaterial Referenced by M_Brick
+[2022.03.06-19.20.12:273][347]LogLinker: Warning: [AssetLog] D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Content\Materials\M_BrickGreen.uasset: Failed to load '/Game/Materials/CollisionMaterial': Can't find file.
+[2022.03.06-19.20.12:273][347]LoadErrors: Failed to load /Game/Materials/CollisionMaterial.CollisionMaterial Referenced by M_BrickGreen
+[2022.03.06-19.20.12:303][347]LogMaterial: Display: Missing cached shadermap for M_Brick in PCD3D_SM5, Default, SM5 (DDC key hash: FD7BD027621C92709FAC166976DF4D61F83C6E12), compiling. 
+[2022.03.06-19.20.12:349][347]LogShaderCompilers: Display: Submitted 16 shader compile jobs with 'Low' priority
+[2022.03.06-19.20.12:422][347]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 16
+[2022.03.06-19.20.12:422][347]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2022.03.06-19.20.12:422][347]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2022.03.06-19.20.12:422][347]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
+[2022.03.06-19.20.12:422][347]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.03.06-19.20.12:422][347]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.03.06-19.20.12:422][347]LogShaderCompilers: Display: Started 16 'Local' shader compile jobs with 'Low' priority
+[2022.03.06-19.20.15:863][475]LogAssetEditorSubsystem: Opening Asset editor for PhysicalMaterial /Game/Materials/Bouncy_Material.Bouncy_Material
+[2022.03.06-19.20.16:432][493]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.06-19.20.16:432][493]LogShaderCompilers: Display: Total job queries 32, among them cache hits 0 (0.00%)
+[2022.03.06-19.20.16:432][493]LogShaderCompilers: Display: Tracking 17 distinct input hashes that result in 14 distinct outputs (82.35%)
+[2022.03.06-19.20.16:432][493]LogShaderCompilers: Display: RAM used: 0.07 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.03.06-19.20.16:432][493]LogShaderCompilers: Display: ================================================
+[2022.03.06-19.21.45:366][ 44]BlueprintLog: New page: Compile BP_Ball
+[2022.03.06-19.21.45:542][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
+[2022.03.06-19.21.46:633][108]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.06-19.21.46:637][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.06-19.21.46:637][108]PIE: New page: PIE session: Level1 (Mar 7, 2022, 1:21:46 AM)
+[2022.03.06-19.21.46:675][108]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.21.46:676][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001048s)
+[2022.03.06-19.21.46:677][108]LogAIModule: Creating AISystem for world Level1
+[2022.03.06-19.21.46:677][108]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2022.03.06-19.21.46:677][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002147s)
+[2022.03.06-19.21.46:710][108]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2022.03.06-19.21.46:710][108]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.03.06-19.21.46:710][108]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.06-19.21.46:710][108]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.06-19.21.46:710][108]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.06-19.21.46:711][108]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.06-19.21.46:711][108]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.06-19.21.46:711][108]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.06-19.21.46:711][108]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.06-19.21.46:711][108]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.06-19.21.46:711][108]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.06-19.21.46:711][108]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.06-19.21.46:711][108]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.06-19.21.46:711][108]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.06-19.21.46:715][108]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.06-19.21.46:715][108]LogAudioMixer: Display: 1: FrontRight
+[2022.03.06-19.21.46:724][108]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.06-19.21.46:725][108]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.06-19.21.46:726][108]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.06-19.21.46:726][108]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.06-19.21.46:729][108]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.06-19.21.46:729][108]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.06-19.21.46:729][108]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.06-19.21.46:730][108]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.06-19.21.46:730][108]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.06-19.21.46:730][108]LogInit: FAudioDevice initialized.
+[2022.03.06-19.21.46:730][108]LogAudio: Display: Audio Device (ID: 16) registered with world 'Level1'.
+[2022.03.06-19.21.46:740][108]LogLoad: Game class is 'GM_BasicBrickMode_C'
+[2022.03.06-19.21.46:741][108]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2022.03.06-22.21.46
+[2022.03.06-19.21.46:741][108]LogWorld: Bringing up level for play took: 0.000500
+[2022.03.06-19.21.46:742][108]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2022.03.06-19.21.46:744][108]PIE: Server logged in
+[2022.03.06-19.21.46:745][108]PIE: Play in editor total start time 0.108 seconds.
+[2022.03.06-19.21.51:398][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.21.51:398][376]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.21.51:399][376]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.03.06-19.21.51:399][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.21.51:408][376]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.06-19.21.51:414][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.21.51:442][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.21.51:442][376]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.21.51:443][376]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.21.51:464][376]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.03.06-19.21.51:485][377]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2022.03.06-19.21.54:681][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/BP_Ball.uasset" SILENT=true
+[2022.03.06-19.21.54:822][565]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/BP_Ball2333154E41BE66C13E11A9B7C5AC7AB5.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/BP_Ball.uasset'
+[2022.03.06-19.21.54:840][565]AssetCheck: New page: Asset Save: BP_Ball
+[2022.03.06-19.21.54:840][565]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Ball.BP_Ball
+[2022.03.06-19.21.55:651][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PC_PaddleController" FILE="D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/PC_PaddleController.uasset" SILENT=true
+[2022.03.06-19.21.55:667][612]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Saved/PC_PaddleController0733A5B0493AECD7B83997B8014E26AA.tmp' to 'D:/GitRepos/UE4Repos/BasicBrickGame/BasicBrickGame/Content/Blueprints/PC_PaddleController.uasset'
+[2022.03.06-19.21.55:688][612]AssetCheck: New page: Asset Save: PC_PaddleController
+[2022.03.06-19.21.55:688][612]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PC_PaddleController.PC_PaddleController
+[2022.03.06-19.21.57:022][677]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.03.06-19.21.58:174][746]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.06-19.21.58:178][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.06-19.21.58:178][746]PIE: New page: PIE session: Level1 (Mar 7, 2022, 1:21:58 AM)
+[2022.03.06-19.21.58:178][746]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.21.58:179][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001013s)
+[2022.03.06-19.21.58:180][746]LogAIModule: Creating AISystem for world Level1
+[2022.03.06-19.21.58:180][746]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2022.03.06-19.21.58:180][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002081s)
+[2022.03.06-19.21.58:213][746]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2022.03.06-19.21.58:214][746]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.03.06-19.21.58:214][746]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.06-19.21.58:214][746]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.06-19.21.58:214][746]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.06-19.21.58:214][746]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.06-19.21.58:214][746]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.06-19.21.58:214][746]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.06-19.21.58:222][746]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.06-19.21.58:222][746]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.06-19.21.58:222][746]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.06-19.21.58:222][746]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.06-19.21.58:222][746]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.06-19.21.58:222][746]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.06-19.21.58:227][746]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.06-19.21.58:227][746]LogAudioMixer: Display: 1: FrontRight
+[2022.03.06-19.21.58:235][746]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.06-19.21.58:236][746]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.06-19.21.58:236][746]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.06-19.21.58:236][746]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.06-19.21.58:239][746]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.06-19.21.58:239][746]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.06-19.21.58:239][746]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.06-19.21.58:241][746]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.06-19.21.58:241][746]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.06-19.21.58:241][746]LogInit: FAudioDevice initialized.
+[2022.03.06-19.21.58:241][746]LogAudio: Display: Audio Device (ID: 17) registered with world 'Level1'.
+[2022.03.06-19.21.58:248][746]LogLoad: Game class is 'GM_BasicBrickMode_C'
+[2022.03.06-19.21.58:249][746]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2022.03.06-22.21.58
+[2022.03.06-19.21.58:249][746]LogWorld: Bringing up level for play took: 0.000421
+[2022.03.06-19.21.58:249][746]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2022.03.06-19.21.58:252][746]PIE: Server logged in
+[2022.03.06-19.21.58:253][746]PIE: Play in editor total start time 0.075 seconds.
+[2022.03.06-19.22.02:715][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.22.02:716][ 12]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.22.02:716][ 12]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.03.06-19.22.02:716][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.22.02:728][ 12]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.06-19.22.02:733][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.22.02:762][ 12]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.06-19.22.02:762][ 12]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.22.02:763][ 12]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.22.02:774][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.22.02:780][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2022.03.06-19.22.02:799][ 13]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2022.03.06-19.22.37:382][927]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.06-19.22.37:387][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.06-19.22.37:387][927]PIE: New page: PIE session: Level1 (Mar 7, 2022, 1:22:37 AM)
+[2022.03.06-19.22.37:388][927]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.22.37:389][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001276s)
+[2022.03.06-19.22.37:390][927]LogAIModule: Creating AISystem for world Level1
+[2022.03.06-19.22.37:391][927]LogPlayLevel: PIE: World Init took: (0.001816s)
+[2022.03.06-19.22.37:391][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003240s)
+[2022.03.06-19.22.37:422][927]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2022.03.06-19.22.37:423][927]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.03.06-19.22.37:424][927]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.06-19.22.37:424][927]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.06-19.22.37:424][927]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.06-19.22.37:424][927]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.06-19.22.37:424][927]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.06-19.22.37:424][927]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.06-19.22.37:424][927]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.06-19.22.37:424][927]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.06-19.22.37:424][927]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.06-19.22.37:424][927]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.06-19.22.37:424][927]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.06-19.22.37:424][927]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.06-19.22.37:428][927]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.06-19.22.37:428][927]LogAudioMixer: Display: 1: FrontRight
+[2022.03.06-19.22.37:439][927]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.06-19.22.37:439][927]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.06-19.22.37:439][927]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.06-19.22.37:439][927]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.06-19.22.37:440][927]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.06-19.22.37:440][927]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.06-19.22.37:440][927]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.06-19.22.37:443][927]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.06-19.22.37:443][927]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.06-19.22.37:443][927]LogInit: FAudioDevice initialized.
+[2022.03.06-19.22.37:443][927]LogAudio: Display: Audio Device (ID: 18) registered with world 'Level1'.
+[2022.03.06-19.22.37:455][927]LogLoad: Game class is 'GM_BasicBrickMode_C'
+[2022.03.06-19.22.37:456][927]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2022.03.06-22.22.37
+[2022.03.06-19.22.37:456][927]LogWorld: Bringing up level for play took: 0.000518
+[2022.03.06-19.22.37:457][927]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2022.03.06-19.22.37:460][927]PIE: Server logged in
+[2022.03.06-19.22.37:461][927]PIE: Play in editor total start time 0.074 seconds.
+[2022.03.06-19.22.39:655][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.22.39:656][ 57]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.22.39:656][ 57]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.03.06-19.22.39:656][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.22.39:664][ 57]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.06-19.22.39:670][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.22.39:698][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.22.39:698][ 57]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.22.39:699][ 57]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.22.39:704][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2022.03.06-19.22.39:728][ 58]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2022.03.06-19.22.54:324][917]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.06-19.22.54:329][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.06-19.22.54:329][917]PIE: New page: PIE session: Level1 (Mar 7, 2022, 1:22:54 AM)
+[2022.03.06-19.22.54:329][917]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.22.54:331][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001047s)
+[2022.03.06-19.22.54:331][917]LogAIModule: Creating AISystem for world Level1
+[2022.03.06-19.22.54:332][917]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2022.03.06-19.22.54:332][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002217s)
+[2022.03.06-19.22.54:364][917]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.03.06-19.22.54:365][917]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.03.06-19.22.54:365][917]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.06-19.22.54:365][917]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.06-19.22.54:365][917]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.06-19.22.54:365][917]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.06-19.22.54:365][917]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.06-19.22.54:365][917]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.06-19.22.54:365][917]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.06-19.22.54:365][917]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.06-19.22.54:366][917]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.06-19.22.54:366][917]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.06-19.22.54:366][917]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.06-19.22.54:366][917]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.06-19.22.54:370][917]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.06-19.22.54:370][917]LogAudioMixer: Display: 1: FrontRight
+[2022.03.06-19.22.54:382][917]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.06-19.22.54:382][917]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.06-19.22.54:382][917]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.06-19.22.54:382][917]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.06-19.22.54:383][917]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.06-19.22.54:383][917]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.06-19.22.54:383][917]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.06-19.22.54:384][917]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.06-19.22.54:384][917]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.06-19.22.54:384][917]LogInit: FAudioDevice initialized.
+[2022.03.06-19.22.54:384][917]LogAudio: Display: Audio Device (ID: 19) registered with world 'Level1'.
+[2022.03.06-19.22.54:395][917]LogLoad: Game class is 'GM_BasicBrickMode_C'
+[2022.03.06-19.22.54:395][917]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2022.03.06-22.22.54
+[2022.03.06-19.22.54:395][917]LogWorld: Bringing up level for play took: 0.000435
+[2022.03.06-19.22.54:396][917]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2022.03.06-19.22.54:398][917]PIE: Server logged in
+[2022.03.06-19.22.54:399][917]PIE: Play in editor total start time 0.07 seconds.
+[2022.03.06-19.23.48:776][646]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.23.48:776][646]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.23.48:776][646]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.03.06-19.23.48:776][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.23.48:799][646]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.06-19.23.48:805][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.23.48:832][646]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.23.48:834][646]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.23.48:836][646]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.23.48:843][646]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2022.03.06-19.23.48:864][647]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.03.06-19.23.49:685][695]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.06-19.23.49:689][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.06-19.23.49:689][695]PIE: New page: PIE session: Level1 (Mar 7, 2022, 1:23:49 AM)
+[2022.03.06-19.23.49:689][695]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.23.49:690][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001113s)
+[2022.03.06-19.23.49:691][695]LogAIModule: Creating AISystem for world Level1
+[2022.03.06-19.23.49:691][695]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2022.03.06-19.23.49:691][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002121s)
+[2022.03.06-19.23.49:722][695]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2022.03.06-19.23.49:722][695]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.03.06-19.23.49:723][695]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.06-19.23.49:723][695]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.06-19.23.49:723][695]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.06-19.23.49:723][695]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.06-19.23.49:723][695]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.06-19.23.49:723][695]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.06-19.23.49:723][695]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.06-19.23.49:723][695]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.06-19.23.49:723][695]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.06-19.23.49:723][695]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.06-19.23.49:723][695]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.06-19.23.49:723][695]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.06-19.23.49:727][695]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.06-19.23.49:728][695]LogAudioMixer: Display: 1: FrontRight
+[2022.03.06-19.23.49:744][695]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.06-19.23.49:745][695]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.06-19.23.49:745][695]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.06-19.23.49:745][695]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.06-19.23.49:745][695]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.06-19.23.49:745][695]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.06-19.23.49:745][695]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.06-19.23.49:746][695]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.06-19.23.49:746][695]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.06-19.23.49:746][695]LogInit: FAudioDevice initialized.
+[2022.03.06-19.23.49:746][695]LogAudio: Display: Audio Device (ID: 20) registered with world 'Level1'.
+[2022.03.06-19.23.49:756][695]LogLoad: Game class is 'GM_BasicBrickMode_C'
+[2022.03.06-19.23.49:758][695]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2022.03.06-22.23.49
+[2022.03.06-19.23.49:758][695]LogWorld: Bringing up level for play took: 0.000553
+[2022.03.06-19.23.49:758][695]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2022.03.06-19.23.49:761][695]PIE: Server logged in
+[2022.03.06-19.23.49:762][695]PIE: Play in editor total start time 0.073 seconds.
+[2022.03.06-19.23.59:816][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.23.59:816][294]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.03.06-19.23.59:816][294]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.03.06-19.23.59:816][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.23.59:824][294]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.06-19.23.59:833][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.06-19.23.59:861][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.06-19.23.59:861][294]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.23.59:863][294]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.06-19.23.59:870][294]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2022.03.06-19.23.59:890][295]LogPlayLevel: Display: Destroying online subsystem :Context_28

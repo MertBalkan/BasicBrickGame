@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeBasicBrickGame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xCFFE894E,
+				0xDFD4BC0E,
 				0x9E5E88DE,
 				METADATA_PARAMS(nullptr, 0)
 			};

@@ -2,4 +2,10 @@ D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4E
 F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Source\BasicBrickGame/PaddlePlayerController.h
+D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Source\BasicBrickGame\Ball.h
+F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+F:\EpicOyunlar\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+F:\EpicOyunlar\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Inc\BasicBrickGame\Ball.generated.h
 D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Inc\BasicBrickGame\PaddlePlayerController.generated.h

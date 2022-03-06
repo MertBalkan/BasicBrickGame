@@ -19,8 +19,6 @@ void EmptyLinkFunctionForGeneratedCodePaddleCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_BasicBrickGame();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UFloatingPawnMovement_NoRegister();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	BASICBRICKGAME_API UClass* Z_Construct_UClass_ABall_NoRegister();
 // End Cross Module References
 	void APaddleCharacter::StaticRegisterNativesAPaddleCharacter()
 	{
@@ -43,10 +41,6 @@ void EmptyLinkFunctionForGeneratedCodePaddleCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FloatingMovement_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FloatingMovement;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BallObj_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BallObj;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -78,17 +72,9 @@ void EmptyLinkFunctionForGeneratedCodePaddleCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APaddleCharacter_Statics::NewProp_FloatingMovement = { "FloatingMovement", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APaddleCharacter, FloatingMovement), Z_Construct_UClass_UFloatingPawnMovement_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APaddleCharacter_Statics::NewProp_FloatingMovement_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APaddleCharacter_Statics::NewProp_FloatingMovement_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APaddleCharacter_Statics::NewProp_BallObj_MetaData[] = {
-		{ "Category", "PaddleCharacter" },
-		{ "ModuleRelativePath", "PaddleCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APaddleCharacter_Statics::NewProp_BallObj = { "BallObj", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APaddleCharacter, BallObj), Z_Construct_UClass_ABall_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APaddleCharacter_Statics::NewProp_BallObj_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APaddleCharacter_Statics::NewProp_BallObj_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APaddleCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APaddleCharacter_Statics::NewProp_SM_Padle,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APaddleCharacter_Statics::NewProp_FloatingMovement,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APaddleCharacter_Statics::NewProp_BallObj,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APaddleCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APaddleCharacter>::IsAbstract,
@@ -117,7 +103,7 @@ void EmptyLinkFunctionForGeneratedCodePaddleCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APaddleCharacter, 4096303009);
+	IMPLEMENT_CLASS(APaddleCharacter, 1780901596);
 	template<> BASICBRICKGAME_API UClass* StaticClass<APaddleCharacter>()
 	{
 		return APaddleCharacter::StaticClass();

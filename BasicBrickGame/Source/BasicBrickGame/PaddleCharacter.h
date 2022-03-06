@@ -18,7 +18,6 @@ class BASICBRICKGAME_API APaddleCharacter : public APawn
 public:
 	// Sets default values for this pawn's properties
 	APaddleCharacter();
-	void SpawnNewBall();
 
 protected:
 	// Called when the game starts or when spawned
@@ -30,17 +29,6 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	UFloatingPawnMovement* FloatingMovement;
 
-	void Launch();
-
-	UPROPERTY(EditAnywhere)
-	TSubclassOf<ABall> BallObj;
-
-	ABall* MyBall;
-
-	FVector SpawnLocation = FVector(10.0f, 0.0f, 40.0f);
-	FRotator SpawnRotation = FRotator(0.0f, 0.0f, 0.0f);
-	FActorSpawnParameters SpawnParameters;
-	
 
 public:
 	// Called every frame

@@ -38,10 +38,8 @@ void ABrick::Tick(float DeltaTime)
 void ABrick::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 	UPrimitiveComponent* OtherComponent, int32 OtherBodyIndexType, bool bFromSweep, const FHitResult& SwapResult)
 {
-	
 }
 
 void ABrick::DestroyBrick()
 {
-	
 }

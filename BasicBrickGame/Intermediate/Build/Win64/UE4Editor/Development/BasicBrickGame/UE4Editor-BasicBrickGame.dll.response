@@ -34,11 +34,13 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\BasicBrickGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\Ball.cpp.obj"
 "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\BasicBrickGame.cpp.obj"
 "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\BasicBrickGameGameModeBase.cpp.obj"
 "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\MyActorComponent.cpp.obj"
 "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\PaddleCharacter.cpp.obj"
 "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\PaddlePlayerController.cpp.obj"
+"D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\Ball.gen.cpp.obj"
 "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\BasicBrickGame.init.gen.cpp.obj"
 "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\BasicBrickGameGameModeBase.gen.cpp.obj"
 "D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\MyActorComponent.gen.cpp.obj"

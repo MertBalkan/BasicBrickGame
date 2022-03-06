@@ -1,0 +1,7 @@
+D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\Definitions.BasicBrickGame.h
+D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Source\BasicBrickGame\Ball.h
+F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+F:\EpicOyunlar\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+F:\EpicOyunlar\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Inc\BasicBrickGame\Ball.generated.h

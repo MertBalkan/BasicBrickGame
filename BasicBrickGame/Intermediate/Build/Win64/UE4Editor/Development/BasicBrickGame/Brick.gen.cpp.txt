@@ -1,0 +1,9 @@
+D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Development\BasicBrickGame\Definitions.BasicBrickGame.h
+F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Source\BasicBrickGame/Brick.h
+F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+F:\EpicOyunlar\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+F:\EpicOyunlar\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
+D:\GitRepos\UE4Repos\BasicBrickGame\BasicBrickGame\Intermediate\Build\Win64\UE4Editor\Inc\BasicBrickGame\Brick.generated.h

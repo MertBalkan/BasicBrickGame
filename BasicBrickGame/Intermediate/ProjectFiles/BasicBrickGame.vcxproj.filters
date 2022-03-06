@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BasicBrickGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3CC3BA6D-67C3-480A-B5F3-1DEA0DFA7A4F}</UniqueIdentifier>
+      <UniqueIdentifier>{DBC34A58-F789-47EC-97FC-20AB80A71BEE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BasicBrickGame.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.ignore" />
     <None Include="..\..\BasicBrickGame.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{154A3C49-9DD6-493A-B874-44B05417DB14}</UniqueIdentifier>
+      <UniqueIdentifier>{A5B4AEE9-0F0F-40EE-A0F3-795A00BDAFA0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BasicBrickGame">
-      <UniqueIdentifier>{7D8F5EC7-F192-4FB0-9900-EF774CF73F4A}</UniqueIdentifier>
+      <UniqueIdentifier>{F2378FDB-9460-417F-82A4-8B97FC463260}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BasicBrickGame\Ball.cpp">
       <Filter>Source\BasicBrickGame</Filter>
@@ -50,6 +50,12 @@
       <Filter>Source\BasicBrickGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BasicBrickGame\BasicBrickGameGameModeBase.h">
+      <Filter>Source\BasicBrickGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicBrickGame\Brick.cpp">
+      <Filter>Source\BasicBrickGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicBrickGame\Brick.h">
       <Filter>Source\BasicBrickGame</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BasicBrickGame\MyActorComponent.cpp">

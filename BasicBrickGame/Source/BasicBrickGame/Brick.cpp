@@ -9,7 +9,7 @@
 // Sets default values
 ABrick::ABrick()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	SM_Brick = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Brick"));
@@ -31,15 +31,28 @@ void ABrick::BeginPlay()
 void ABrick::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 
 void ABrick::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
-	UPrimitiveComponent* OtherComponent, int32 OtherBodyIndexType, bool bFromSweep, const FHitResult& SwapResult)
+                            UPrimitiveComponent* OtherComponent, int32 OtherBodyIndexType, bool bFromSweep,
+                            const FHitResult& SwapResult)
 {
+	if (OtherActor->ActorHasTag("Ball"))
+	{
+		ABall* MyBall = Cast<ABall>(OtherActor);
+		FVector BallVelocity = MyBall->GetVelocity();
+
+		BallVelocity *= (SpeedModifierOnBounce - 1.0f);
+
+		MyBall->GetBall()->SetPhysicsLinearVelocity(BallVelocity, true);
+
+		FTimerHandle UnusedHandle;
+		GetWorldTimerManager().SetTimer(UnusedHandle, this, &ABrick::DestroyBrick, 0.1f, false);
+	}
 }
 
 void ABrick::DestroyBrick()
 {
+	this->Destroy();
 }
